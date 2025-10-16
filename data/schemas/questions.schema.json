@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": ["version", "questions"],
+  "properties": {
+    "version": {"type":"integer"},
+    "questions": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required":["id","text","type"],
+        "properties": {
+          "id":{"type":"string"},
+          "text":{"type":"string"},
+          "type":{"enum":["boolean"]},
+          "style_guide":{"type":"string"}
+        }
+      }
+    }
+  }
+}

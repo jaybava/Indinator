@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "required":["version","likelihoods"],
+  "properties":{
+    "version":{"type":"integer"},
+    "likelihoods":{
+      "type":"object",
+      "additionalProperties":{
+        "type":"object",
+        "additionalProperties":{"type":"number","minimum":0.0,"maximum":1.0}
+      }
+    }
+  }
+}

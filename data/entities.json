@@ -1,0 +1,8 @@
+{
+  "$schema": "entities.schema",
+  "version": 1,
+  "entities": [
+    {"id": "iron_man", "name": "Iron Man", "franchise": "Marvel", "meta": {"medium": "film"}},
+    {"id": "batman", "name": "Batman", "franchise": "DC", "meta": {"medium": "film"}}
+  ]
+}

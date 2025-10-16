@@ -1,0 +1,39 @@
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit / FastAPI cache ---
+.streamlit/
+*.sqlite
+
+# --- Coverage / Test ---
+.coverage
+htmlcov/
+pytest_cache/
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg-info/
+
+# --- Local secrets ---
+*.env
+.env.*
+secrets/

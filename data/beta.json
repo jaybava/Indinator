@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "beta": {
+    "iron_man": {"q_universe": {"alpha": 19, "beta": 1}, "q_has_powers": {"alpha": 3, "beta": 17}},
+    "batman":   {"q_universe": {"alpha": 1,  "beta": 19}, "q_has_powers": {"alpha": 1, "beta": 19}}
+  }
+}

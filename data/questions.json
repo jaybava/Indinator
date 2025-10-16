@@ -1,0 +1,19 @@
+/* Example. Lets just chatGPT a bank of questions */
+{
+  "$schema": "./questions.schema.json",
+  "version": 1,
+  "questions": [
+    {
+      "id": "q_universe",
+      "text": "Is the character from the Marvel universe?",
+      "type": "boolean",
+      "style_guide": "Include MCU & comics; exclude DC"
+    },
+    {
+      "id": "q_has_powers",
+      "text": "Does the character have superpowers?",
+      "type": "boolean",
+      "style_guide": "Powers beyond normal humans"
+    }
+  ]
+}

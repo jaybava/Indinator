@@ -1,0 +1,20 @@
+{
+  "type":"object",
+  "required":["version","entities"],
+  "properties":{
+    "version":{"type":"integer"},
+    "entities":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["id","name"],
+        "properties":{
+          "id":{"type":"string"},
+          "name":{"type":"string"},
+          "franchise":{"type":"string"},
+          "meta":{"type":"object"}
+        }
+      }
+    }
+  }
+}

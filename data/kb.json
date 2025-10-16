@@ -1,0 +1,8 @@
+{
+  "$schema": "kb.schema",
+  "version": 1,
+  "likelihoods": {
+    "iron_man": {"q_universe": 0.95, "q_has_powers": 0.25},
+    "batman":   {"q_universe": 0.05, "q_has_powers": 0.05}
+  }
+}
