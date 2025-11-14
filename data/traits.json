@@ -1,131 +1,4045 @@
 {
-  "Harry Potter": ["human", "magic", "movie", "book", "team", "protagonist", "weapon", "iconic", "loyal", "rebellious", "fantasy"],
-  "Hermione Granger": ["human", "female", "magic", "movie", "book", "team", "smart", "wise", "loyal", "fantasy"],
-  "Ron Weasley": ["human", "magic", "movie", "book", "team", "funny", "loyal", "fantasy"],
-  "Albus Dumbledore": ["human", "magic", "movie", "book", "wise", "leader", "fantasy"],
-  "Darth Vader": ["human", "villain", "movie", "tv", "videogame", "mask", "weapon", "futuristic", "military", "science", "antihero", "iconic"],
-  "Luke Skywalker": ["human", "movie", "tv", "protagonist", "weapon", "powers", "pilot", "futuristic", "wise", "rebellious"],
-  "Princess Leia": ["human", "female", "movie", "tv", "leader", "royalty", "military", "futuristic", "iconic"],
-  "Han Solo": ["human", "movie", "pilot", "guns", "futuristic", "team", "funny", "science", "antihero", "companion"],
-
-  "Frodo Baggins": ["creature", "movie", "book", "fantasy", "protagonist", "weapon", "loyal", "tragic"],
-  "Gandalf": ["creature", "magic", "movie", "book", "fantasy", "wise", "leader", "immortal", "monsterhunter"],
-  "Aragorn": ["human", "movie", "book", "fantasy", "royalty", "leader", "weapon", "military"],
-  "Legolas": ["creature", "movie", "book", "fantasy", "speed", "immortal", "weapon"],
-  "Bilbo Baggins": ["creature", "movie", "book", "fantasy", "protagonist", "weapon", "funny"],
-
-  "Katniss Everdeen": ["human", "female", "movie", "book", "protagonist", "weapon", "combat", "rebellious", "tragic"],
-  "Peeta Mellark": ["human", "movie", "book", "combat", "tragic"],
-  "President Snow": ["human", "movie", "book", "villain", "leader"],
-
-  "Sherlock Holmes": ["human", "book", "movie", "tv", "smart", "protagonist", "wise", "science", "iconic"],
-  "John Watson": ["human", "book", "movie", "tv", "loyal", "combat"],
-
-  "James Bond": ["human", "movie", "guns", "strength", "iconic", "pilot", "team"],
-  "Indiana Jones": ["human", "movie", "science", "weapon", "smart", "combat"],
-
-  "Batman": ["human", "male", "movie", "comic", "superhero", "mask", "combat", "wealthy", "iconic"],
-  "Superman": ["human", "superhero", "powers", "fly", "movie", "comic", "protagonist", "iconic"],
-  "Wonder Woman": ["female", "superhero", "combat", "strength", "movie", "magic", "iconic"],
-  "The Joker": ["human", "villain", "movie", "comic", "antihero", "crazy", "iconic"],
-  "Harley Quinn": ["female", "villain", "movie", "comic", "funny", "antihero"],
-
-  "Spider-Man": ["human", "superhero", "movie", "comic", "mask", "speed", "protagonist", "powers"],
-  "Iron Man": ["human", "superhero", "movie", "comic", "science", "leader", "protagonist", "iconic"],
-  "Captain America": ["human", "superhero", "movie", "combat", "leader", "military", "iconic"],
-  "Hulk": ["human", "superhero", "strength", "powers", "movie", "comic"],
-  "Thor": ["creature", "superhero", "powers", "magic", "royalty", "movie"],
-  "Black Widow": ["human", "female", "movie", "combat", "spy", "team"],
-  "Loki": ["creature", "villain", "magic", "movie", "antihero", "royalty"],
-  "Thanos": ["creature", "villain", "strength", "powers", "movie", "futuristic", "iconic"],
-
-  "Naruto Uzumaki": ["creature", "anime", "powers", "combat", "protagonist", "speed", "team"],
-  "Sasuke Uchiha": ["creature", "anime", "powers", "combat", "antihero"],
-  "Sakura Haruno": ["creature", "female", "anime", "combat", "team"],
-  "Kakashi Hatake": ["creature", "anime", "mask", "combat", "wise"],
-
-  "Monkey D. Luffy": ["human", "anime", "powers", "combat", "rubber", "protagonist", "team"],
-  "Roronoa Zoro": ["human", "anime", "combat", "weapon", "wise"],
-  "Nami": ["human", "female", "anime", "team", "smart"],
-  "Sanji": ["human", "anime", "combat", "team", "funny"],
-
-  "Light Yagami": ["human", "anime", "smart", "villain"],
-  "L Lawliet": ["human", "anime", "smart", "protagonist"],
-
-  "Goku": ["creature", "anime", "superhero", "combat", "powers", "speed", "protagonist"],
-  "Vegeta": ["creature", "anime", "combat", "antihero", "powers"],
-  "Piccolo": ["creature", "anime", "combat", "powers", "protagonist"],
-
-  "Ash Ketchum": ["human", "anime", "protagonist", "team", "monsterhunter"],
-  "Pikachu": ["creature", "anime", "powers", "speed", "iconic"],
-
-  "Mario": ["human", "videogame", "iconic", "combat", "speed"],
-  "Luigi": ["human", "videogame", "combat", "sidekick"],
-  "Princess Peach": ["human", "female", "videogame", "royalty"],
-  "Bowser": ["creature", "videogame", "villain", "strength", "powers"],
-
-  "Link": ["human", "videogame", "fantasy", "weapon", "protagonist"],
-  "Zelda": ["human", "female", "videogame", "magic", "royalty"],
-  "Ganondorf": ["creature", "videogame", "magic", "villain", "strength"],
-
-  "Kratos": ["human", "videogame", "combat", "strength", "antihero", "protagonist"],
-  "Atreus": ["human", "videogame", "magic", "child", "team"],
-
-  "Master Chief": ["human", "videogame", "military", "mask", "combat", "science", "futuristic"],
-  "Cortana": ["creature", "videogame", "science", "ai", "futuristic"],
-
-  "Geralt of Rivia": ["human", "videogame", "monsterhunter", "combat", "fantasy", "antihero"],
-  "Yennefer": ["human", "female", "videogame", "magic", "fantasy"],
-  "Ciri": ["human", "female", "videogame", "magic", "fantasy", "protagonist"],
-
-  "Eren Yeager": ["human", "anime", "military", "shapeshift", "antihero"],
-  "Mikasa Ackerman": ["human", "anime", "military", "combat", "loyal"],
-  "Armin Arlert": ["human", "anime", "military", "smart"],
-  "Levi Ackerman": ["human", "anime", "military", "combat", "wise"],
-
-  "Rick Grimes": ["human", "tv", "leader", "weapon", "villain", "antihero"],
-  "Michonne": ["human", "tv", "weapon", "combat", "leader"],
-
-  "Homer Simpson": ["human", "animated", "tv", "funny"],
-  "Bart Simpson": ["human", "animated", "tv", "child", "rebellious"],
-  "Lisa Simpson": ["human", "animated", "tv", "smart", "child"],
-
-  "SpongeBob SquarePants": ["creature", "animated", "tv", "funny"],
-  "Patrick Star": ["creature", "animated", "tv", "funny"],
-  "Squidward Tentacles": ["creature", "animated", "tv", "funny"],
-
-  "Shrek": ["creature", "animated", "movie", "funny", "antihero", "fantasy"],
-  "Donkey": ["creature", "animated", "movie", "funny"],
-  "Fiona": ["human", "animated", "movie", "magic", "royalty"],
-
-  "Elsa": ["human", "female", "animated", "movie", "magic", "powers"],
-  "Anna": ["human", "female", "animated", "movie"],
-  "Olaf": ["creature", "animated", "movie", "magic", "funny"],
-
-  "Aang": ["human", "animated", "tv", "magic", "powers", "protagonist"],
-  "Zuko": ["human", "animated", "tv", "magic", "antihero"],
-  "Katara": ["human", "female", "animated", "tv", "magic"],
-  "Sokka": ["human", "animated", "tv", "funny"],
-
-  "Walter White": ["human", "tv", "leader", "science", "villain", "antihero"],
-  "Jesse Pinkman": ["human", "tv", "antihero", "science"],
-  "Saul Goodman": ["human", "tv", "funny", "antihero"],
-
-  "Eleven": ["human", "female", "tv", "powers", "magic"],
-  "Mike Wheeler": ["human", "tv", "team"],
-  "Vecna": ["creature", "tv", "magic", "villain"],
-
-  "Jon Snow": ["human", "tv", "fantasy", "leader", "combat"],
-  "Daenerys Targaryen": ["human", "female", "tv", "fantasy", "magic", "royalty", "leader"],
-  "Tyrion Lannister": ["human", "tv", "fantasy", "smart", "funny"],
-  "Arya Stark": ["human", "female", "tv", "fantasy", "combat"],
-
-  "Sonic the Hedgehog": ["creature", "videogame", "speed", "iconic"],
-  "Dr. Eggman": ["human", "villain", "videogame", "science"],
-
-  "Lara Croft": ["human", "female", "videogame", "combat", "weapon"],
-  "Nathan Drake": ["human", "videogame", "combat", "smart"],
-
-  "Joel Miller": ["human", "videogame", "weapon", "combat", "antihero"],
-  "Ellie Williams": ["human", "female", "videogame", "combat", "protagonist"]
+  "Aang": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_avatar": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "bald": 1,
+      "height_short": 1,
+      "distinctive_tattoo": 1,
+      "has_staff": 1,
+      "color_orange": 1
+    },
+    "abilities": {
+      "airbending": 1,
+      "waterbending": 1,
+      "earthbending": 1,
+      "firebending": 1,
+      "avatar_state": 1,
+      "flying": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1,
+      "avatar": 1
+    },
+    "archetype": {
+      "monk": 1,
+      "avatar": 1,
+      "peacekeeper": 1
+    },
+    "personality": {
+      "fun_loving": 1,
+      "peaceful": 1,
+      "brave": 1,
+      "caring": 1
+    }
+  },
+  "Albus Dumbledore": {
+    "identity": {
+      "gender_m": 1,
+      "age_old": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_harry_potter": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "wears_robe": 1,
+      "has_glasses": 1,
+      "half_moon_glasses": 1,
+      "very_long_beard": 1,
+      "colorful_robes": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "powerful_magic": 1,
+      "elder_wand": 1,
+      "phoenix_owner": 1,
+      "alchemist": 1
+    },
+    "role": {
+      "mentor": 1,
+      "leader": 1,
+      "wise": 1,
+      "headmaster_hogwarts": 1,
+      "order_of_phoenix_leader": 1
+    },
+    "archetype": {
+      "wizard": 1,
+      "teacher": 1,
+      "headmaster": 1
+    },
+    "personality": {
+      "wise": 1,
+      "calm": 1,
+      "mysterious": 1,
+      "caring": 1,
+      "eccentric": 1
+    }
+  },
+  "Anna": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_frozen": 1,
+      "disney": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "hair_red": 1,
+      "height_average": 1,
+      "wears_dress": 1
+    },
+    "abilities": {
+      "bravery": 1,
+      "determination": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "royalty": 1
+    },
+    "archetype": {
+      "princess": 1,
+      "adventurer": 1,
+      "royalty": 1
+    },
+    "personality": {
+      "optimistic": 1,
+      "brave": 1,
+      "impulsive": 1,
+      "loving": 1
+    }
+  },
+  "Aragorn": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_lotr": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "has_sword": 1,
+      "wears_armor": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "leadership": 1,
+      "healing": 1
+    },
+    "role": {
+      "hero": 1,
+      "leader": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "ranger": 1,
+      "king": 1
+    },
+    "personality": {
+      "noble": 1,
+      "brave": 1,
+      "humble": 1,
+      "wise": 1
+    }
+  },
+  "Armin Arlert": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_aot": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "strategy": 1,
+      "titan_shifting": 1
+    },
+    "role": {
+      "support": 1,
+      "strategist": 1,
+      "best_friend": 1
+    },
+    "archetype": {
+      "soldier": 1,
+      "strategist": 1,
+      "titan_shifter": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "timid": 1,
+      "strategic": 1,
+      "loyal": 1
+    }
+  },
+  "Arya Stark": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_got": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_short": 1,
+      "has_sword": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "stealth": 1,
+      "assassination": 1,
+      "face_changing": 1
+    },
+    "role": {
+      "main_character": 1,
+      "assassin": 1,
+      "avenger": 1
+    },
+    "archetype": {
+      "assassin": 1,
+      "warrior": 1,
+      "survivor": 1
+    },
+    "personality": {
+      "determined": 1,
+      "vengeful": 1,
+      "skilled": 1,
+      "brave": 1
+    }
+  },
+  "Ash Ketchum": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_pokemon": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "has_hat": 1,
+      "color_blue": 1
+    },
+    "abilities": {
+      "pokemon_trainer": 1,
+      "leadership": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "trainer": 1
+    },
+    "archetype": {
+      "trainer": 1,
+      "adventurer": 1
+    },
+    "personality": {
+      "determined": 1,
+      "optimistic": 1,
+      "brave": 1,
+      "naive": 1
+    }
+  },
+  "Atreus": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_demigod": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_god_of_war": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_short": 1,
+      "has_bow": 1
+    },
+    "abilities": {
+      "bow_user": 1,
+      "magic": 1,
+      "animal_communication": 1
+    },
+    "role": {
+      "support": 1,
+      "son": 1,
+      "sidekick": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "archer": 1,
+      "god": 1
+    },
+    "personality": {
+      "curious": 1,
+      "brave": 1,
+      "impulsive": 1,
+      "caring": 1
+    }
+  },
+  "Bart Simpson": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_simpsons": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_yellow": 1,
+      "height_short": 1,
+      "color_yellow": 1,
+      "spiky_hair": 1
+    },
+    "abilities": {
+      "skateboarding": 1,
+      "pranks": 1
+    },
+    "role": {
+      "troublemaker": 1,
+      "comedic_character": 1,
+      "son": 1
+    },
+    "archetype": {
+      "student": 1,
+      "troublemaker": 1,
+      "prankster": 1
+    },
+    "personality": {
+      "mischievous": 1,
+      "rebellious": 1,
+      "funny": 1,
+      "troublemaker": 1
+    }
+  },
+  "Batman": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_dc": 1
+    },
+    "appearance": {
+      "wears_armor": 1,
+      "has_mask": 1,
+      "color_black": 1,
+      "has_cape": 1,
+      "height_tall": 1
+    },
+    "abilities": {
+      "martial_arts": 1,
+      "gadgets": 1,
+      "super_intelligence": 1,
+      "stealth": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "vigilante": 1,
+      "leader": 1
+    },
+    "archetype": {
+      "vigilante": 1,
+      "detective": 1,
+      "billionaire": 1
+    },
+    "personality": {
+      "serious": 1,
+      "determined": 1,
+      "brooding": 1,
+      "intelligent": 1,
+      "traumatized": 1
+    }
+  },
+  "Bilbo Baggins": {
+    "identity": {
+      "gender_m": 1,
+      "age_old": 1,
+      "species_hobbit": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_lotr": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_short": 1,
+      "has_ring": 1,
+      "pointed_ears": 1
+    },
+    "abilities": {
+      "stealth": 1,
+      "ring_bearer": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1
+    },
+    "archetype": {
+      "explorer": 1,
+      "burglar": 1
+    },
+    "personality": {
+      "adventurous": 1,
+      "clever": 1,
+      "kind": 1
+    }
+  },
+  "Black Widow": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "hair_red": 1,
+      "height_average": 1,
+      "wears_suit": 1,
+      "color_black": 1,
+      "has_gun": 1
+    },
+    "abilities": {
+      "martial_arts": 1,
+      "gun_user": 1,
+      "stealth": 1,
+      "espionage": 1
+    },
+    "role": {
+      "hero": 1,
+      "spy": 1,
+      "assassin": 1
+    },
+    "archetype": {
+      "spy": 1,
+      "assassin": 1,
+      "agent": 1,
+      "superhero": 1
+    },
+    "personality": {
+      "skilled": 1,
+      "secretive": 1,
+      "loyal": 1,
+      "traumatized": 1
+    }
+  },
+  "Bowser": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_koopa": 1,
+      "alignment_evil": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_mario": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "color_green": 1,
+      "height_tall": 1,
+      "has_shell": 1,
+      "has_horns": 1,
+      "has_tail": 1,
+      "muscular": 1
+    },
+    "abilities": {
+      "fire_breathing": 1,
+      "super_strength": 1,
+      "shell_defense": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "recurring_villain": 1
+    },
+    "archetype": {
+      "king": 1,
+      "villain": 1,
+      "monster": 1
+    },
+    "personality": {
+      "evil": 1,
+      "powerful": 1,
+      "persistent": 1,
+      "comedic": 1
+    }
+  },
+  "Captain America": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "wears_armor": 1,
+      "has_shield": 1,
+      "color_blue": 1,
+      "color_red": 1,
+      "has_helmet": 1,
+      "height_tall": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "shield_user": 1,
+      "super_agility": 1,
+      "leadership": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "leader": 1,
+      "icon": 1
+    },
+    "archetype": {
+      "superhero": 1,
+      "soldier": 1,
+      "leader": 1
+    },
+    "personality": {
+      "honorable": 1,
+      "brave": 1,
+      "moral": 1,
+      "determined": 1
+    }
+  },
+  "Ciri": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_witcher": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "height_average": 1,
+      "has_sword": 1,
+      "distinctive_scar": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "teleportation": 1,
+      "time_space_manipulation": 1,
+      "super_speed": 1
+    },
+    "role": {
+      "deuteragonist": 1,
+      "chosen_one": 1,
+      "support": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "princess": 1,
+      "witcher": 1
+    },
+    "personality": {
+      "brave": 1,
+      "determined": 1,
+      "caring": 1,
+      "powerful": 1
+    }
+  },
+  "Cortana": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_ai": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_halo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "color_blue": 1,
+      "height_average": 1,
+      "glowing": 1,
+      "holographic": 1
+    },
+    "abilities": {
+      "hacking": 1,
+      "super_intelligence": 1,
+      "data_manipulation": 1
+    },
+    "role": {
+      "support": 1,
+      "ai_companion": 1,
+      "guide": 1
+    },
+    "archetype": {
+      "ai": 1,
+      "companion": 1,
+      "hacker": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "caring": 1,
+      "witty": 1,
+      "loyal": 1
+    }
+  },
+  "Daenerys Targaryen": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_got": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "height_average": 1,
+      "wears_dress": 1
+    },
+    "abilities": {
+      "dragon_control": 1,
+      "leadership": 1,
+      "fire_immunity": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "villain": 1,
+      "royalty": 1
+    },
+    "archetype": {
+      "queen": 1,
+      "conqueror": 1,
+      "dragonrider": 1
+    },
+    "personality": {
+      "powerful": 1,
+      "determined": 1,
+      "ruthless": 1,
+      "compassionate": 1
+    }
+  },
+  "Darth Vader": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_star_wars": 1
+    },
+    "appearance": {
+      "wears_armor": 1,
+      "has_helmet": 1,
+      "color_black": 1,
+      "height_tall": 1,
+      "has_cape": 1,
+      "iconic_mask": 1
+    },
+    "abilities": {
+      "force_user": 1,
+      "lightsaber": 1,
+      "super_strength": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "anti_hero": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "sith_lord": 1,
+      "commander": 1
+    },
+    "personality": {
+      "intimidating": 1,
+      "powerful": 1,
+      "tragic": 1,
+      "conflicted": 1
+    }
+  },
+  "Donkey": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_donkey": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_shrek": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "color_gray": 1,
+      "height_short": 1,
+      "has_tail": 1,
+      "four_legs": 1
+    },
+    "abilities": {
+      "talking": 1,
+      "flying": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "comedic_relief": 1,
+      "best_friend": 1
+    },
+    "archetype": {
+      "companion": 1,
+      "friend": 1,
+      "comic_relief": 1
+    },
+    "personality": {
+      "talkative": 1,
+      "funny": 1,
+      "loyal": 1,
+      "optimistic": 1
+    }
+  },
+  "Dr. Eggman": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_sonic": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "has_mustache": 1,
+      "bald": 1,
+      "height_average": 1,
+      "has_glasses": 1,
+      "color_red": 1,
+      "overweight": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "robotics": 1,
+      "inventions": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "recurring_villain": 1
+    },
+    "archetype": {
+      "scientist": 1,
+      "inventor": 1,
+      "villain": 1
+    },
+    "personality": {
+      "evil": 1,
+      "intelligent": 1,
+      "arrogant": 1,
+      "persistent": 1
+    }
+  },
+  "Eleven": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_stranger_things": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_short": 1,
+      "distinctive_look": 1
+    },
+    "abilities": {
+      "telekinesis": 1,
+      "telepathy": 1,
+      "psychic_powers": 1,
+      "dimensional_travel": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "experiment": 1,
+      "psychic": 1,
+      "hero": 1
+    },
+    "personality": {
+      "powerful": 1,
+      "loyal": 1,
+      "brave": 1,
+      "traumatized": 1
+    }
+  },
+  "Ellie Williams": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_tlou": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "has_weapon": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "stealth": 1,
+      "immunity": 1,
+      "knife_user": 1
+    },
+    "role": {
+      "deuteragonist": 1,
+      "survivor": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "survivor": 1,
+      "fighter": 1,
+      "immune": 1
+    },
+    "personality": {
+      "brave": 1,
+      "funny": 1,
+      "determined": 1,
+      "traumatized": 1
+    }
+  },
+  "Elsa": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_frozen": 1,
+      "disney": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "wears_dress": 1,
+      "color_blue": 1
+    },
+    "abilities": {
+      "ice_magic": 1,
+      "snow_creation": 1,
+      "powerful_magic": 1,
+      "winter_control": 1
+    },
+    "role": {
+      "main_character": 1,
+      "royalty": 1,
+      "misunderstood": 1
+    },
+    "archetype": {
+      "queen": 1,
+      "sorceress": 1,
+      "royalty": 1
+    },
+    "personality": {
+      "fearful": 1,
+      "powerful": 1,
+      "protective": 1,
+      "isolated": 1
+    }
+  },
+  "Eren Yeager": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_aot": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "distinctive_eyes": 1
+    },
+    "abilities": {
+      "titan_shifting": 1,
+      "regeneration": 1,
+      "super_strength": 1,
+      "hardening": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "anti_hero": 1,
+      "antagonist": 1
+    },
+    "archetype": {
+      "soldier": 1,
+      "titan_shifter": 1,
+      "warrior": 1
+    },
+    "personality": {
+      "determined": 1,
+      "angry": 1,
+      "traumatized": 1,
+      "ruthless": 1
+    }
+  },
+  "Fiona": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_ogre": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_shrek": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "hair_red": 1,
+      "height_average": 1,
+      "color_green": 1
+    },
+    "abilities": {
+      "martial_arts": 1,
+      "ogre_powers": 1,
+      "transformation": 1
+    },
+    "role": {
+      "love_interest": 1,
+      "hero": 1,
+      "royalty": 1
+    },
+    "archetype": {
+      "princess": 1,
+      "warrior": 1,
+      "ogre": 1
+    },
+    "personality": {
+      "strong": 1,
+      "kind": 1,
+      "independent": 1,
+      "misunderstood": 1
+    }
+  },
+  "Frodo Baggins": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_hobbit": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_lotr": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_short": 1,
+      "has_ring": 1,
+      "pointed_ears": 1
+    },
+    "abilities": {
+      "stealth": 1,
+      "ring_bearer": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "explorer": 1,
+      "ring_bearer": 1
+    },
+    "personality": {
+      "brave": 1,
+      "humble": 1,
+      "determined": 1,
+      "burdened": 1
+    }
+  },
+  "Gandalf": {
+    "identity": {
+      "gender_m": 1,
+      "age_old": 1,
+      "species_wizard": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_lotr": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "wears_robe": 1,
+      "has_staff": 1,
+      "has_hat": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "powerful_magic": 1,
+      "sword_user": 1
+    },
+    "role": {
+      "mentor": 1,
+      "wise": 1,
+      "leader": 1
+    },
+    "archetype": {
+      "wizard": 1,
+      "mentor": 1,
+      "wanderer": 1
+    },
+    "personality": {
+      "wise": 1,
+      "powerful": 1,
+      "caring": 1,
+      "mysterious": 1
+    }
+  },
+  "Ganondorf": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_gerudo": 1,
+      "alignment_evil": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_zelda": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_red": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "has_armor": 1,
+      "has_sword": 1
+    },
+    "abilities": {
+      "dark_magic": 1,
+      "sword_user": 1,
+      "super_strength": 1,
+      "transformation": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "main_villain": 1
+    },
+    "archetype": {
+      "king": 1,
+      "sorcerer": 1,
+      "warlord": 1
+    },
+    "personality": {
+      "evil": 1,
+      "powerful": 1,
+      "ambitious": 1,
+      "cruel": 1
+    }
+  },
+  "Geralt of Rivia": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_witcher": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_witcher": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "has_sword": 1,
+      "distinctive_eyes": 1,
+      "has_scar": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "magic_signs": 1,
+      "alchemy": 1,
+      "enhanced_senses": 1,
+      "monster_hunting": 1
+    },
+    "role": {
+      "main_character": 1,
+      "anti_hero": 1,
+      "monster_hunter": 1
+    },
+    "archetype": {
+      "witcher": 1,
+      "monster_hunter": 1,
+      "mercenary": 1
+    },
+    "personality": {
+      "stoic": 1,
+      "sarcastic": 1,
+      "skilled": 1,
+      "moral": 1
+    }
+  },
+  "Goku": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_saiyan": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_dragon_ball": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "color_orange": 1,
+      "spiky_hair": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "super_speed": 1,
+      "energy_blasts": 1,
+      "flying": 1,
+      "transformation": 1,
+      "ki_control": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "martial_artist": 1,
+      "warrior": 1,
+      "protector": 1
+    },
+    "personality": {
+      "naive": 1,
+      "kind": 1,
+      "determined": 1,
+      "battle_loving": 1
+    }
+  },
+  "Han Solo": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_star_wars": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "has_vest": 1,
+      "has_gun": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "piloting": 1
+    },
+    "role": {
+      "anti_hero": 1,
+      "support": 1,
+      "rogue": 1
+    },
+    "archetype": {
+      "smuggler": 1,
+      "pilot": 1,
+      "scoundrel": 1
+    },
+    "personality": {
+      "cocky": 1,
+      "charismatic": 1,
+      "brave": 1,
+      "sarcastic": 1
+    }
+  },
+  "Harley Quinn": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_dc": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "hair_colorful": 1,
+      "height_average": 1,
+      "color_red": 1,
+      "color_blue": 1
+    },
+    "abilities": {
+      "martial_arts": 1,
+      "acrobatics": 1,
+      "weapon_user": 1
+    },
+    "role": {
+      "villain": 1,
+      "anti_hero": 1,
+      "sidekick": 1
+    },
+    "archetype": {
+      "criminal": 1,
+      "psychiatrist": 1,
+      "jester": 1
+    },
+    "personality": {
+      "chaotic": 1,
+      "fun_loving": 1,
+      "unpredictable": 1,
+      "loyal": 1
+    }
+  },
+  "Harry Potter": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_harry_potter": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "has_glasses": 1,
+      "height_average": 1,
+      "distinctive_scar": 1,
+      "wears_robe": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "flying": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "wizard": 1,
+      "student": 1
+    },
+    "personality": {
+      "brave": 1,
+      "loyal": 1,
+      "determined": 1,
+      "selfless": 1
+    }
+  },
+  "Hermione Granger": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_harry_potter": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "wears_robe": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "intelligent": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "support": 1,
+      "best_friend": 1
+    },
+    "archetype": {
+      "wizard": 1,
+      "student": 1,
+      "scholar": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "logical": 1,
+      "perfectionist": 1,
+      "loyal": 1
+    }
+  },
+  "Homer Simpson": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_simpsons": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "bald": 1,
+      "height_average": 1,
+      "color_yellow": 1,
+      "overweight": 1
+    },
+    "abilities": {
+      "durability": 1,
+      "luck": 1
+    },
+    "role": {
+      "main_character": 1,
+      "father": 1,
+      "comedic_character": 1
+    },
+    "archetype": {
+      "nuclear_technician": 1,
+      "father": 1,
+      "everyman": 1
+    },
+    "personality": {
+      "lazy": 1,
+      "funny": 1,
+      "foolish": 1,
+      "loving": 1
+    }
+  },
+  "Hulk": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "color_green": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "no_shirt": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "invulnerability": 1,
+      "regeneration": 1,
+      "rage_power": 1
+    },
+    "role": {
+      "hero": 1,
+      "monster": 1,
+      "anti_hero": 1
+    },
+    "archetype": {
+      "scientist": 1,
+      "monster": 1,
+      "superhero": 1
+    },
+    "personality": {
+      "angry": 1,
+      "powerful": 1,
+      "misunderstood": 1,
+      "gentle": 1
+    }
+  },
+  "Indiana Jones": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_indiana_jones": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "has_whip": 1,
+      "has_hat": 1,
+      "wears_jacket": 1
+    },
+    "abilities": {
+      "whip_user": 1,
+      "archaeology": 1,
+      "gun_user": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "adventurer": 1
+    },
+    "archetype": {
+      "archaeologist": 1,
+      "professor": 1,
+      "adventurer": 1
+    },
+    "personality": {
+      "brave": 1,
+      "adventurous": 1,
+      "charming": 1,
+      "sarcastic": 1
+    }
+  },
+  "Iron Man": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "wears_armor": 1,
+      "color_red": 1,
+      "color_gold": 1,
+      "has_helmet": 1,
+      "height_tall": 1
+    },
+    "abilities": {
+      "tech_genius": 1,
+      "flying": 1,
+      "energy_blasts": 1,
+      "super_intelligence": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "leader": 1,
+      "genius": 1
+    },
+    "archetype": {
+      "superhero": 1,
+      "billionaire": 1,
+      "inventor": 1,
+      "engineer": 1
+    },
+    "personality": {
+      "arrogant": 1,
+      "intelligent": 1,
+      "sarcastic": 1,
+      "heroic": 1
+    }
+  },
+  "James Bond": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_james_bond": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "wears_suit": 1,
+      "has_gun": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "martial_arts": 1,
+      "gadgets": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "spy": 1
+    },
+    "archetype": {
+      "spy": 1,
+      "assassin": 1,
+      "agent": 1
+    },
+    "personality": {
+      "charming": 1,
+      "confident": 1,
+      "suave": 1,
+      "ruthless": 1
+    }
+  },
+  "Jesse Pinkman": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_breaking_bad": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "has_beard": 1
+    },
+    "abilities": {
+      "chemistry": 1,
+      "street_smarts": 1
+    },
+    "role": {
+      "deuteragonist": 1,
+      "sidekick": 1,
+      "victim": 1
+    },
+    "archetype": {
+      "drug_dealer": 1,
+      "chemist": 1,
+      "dropout": 1
+    },
+    "personality": {
+      "emotional": 1,
+      "loyal": 1,
+      "traumatized": 1,
+      "moral": 1
+    }
+  },
+  "Joel Miller": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_tlou": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "has_gun": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "survival_skills": 1,
+      "stealth": 1,
+      "crafting": 1
+    },
+    "role": {
+      "main_character": 1,
+      "anti_hero": 1,
+      "survivor": 1
+    },
+    "archetype": {
+      "smuggler": 1,
+      "survivor": 1,
+      "protector": 1
+    },
+    "personality": {
+      "protective": 1,
+      "traumatized": 1,
+      "ruthless": 1,
+      "caring": 1
+    }
+  },
+  "John Watson": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_sherlock": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "wears_suit": 1
+    },
+    "abilities": {
+      "medical_skills": 1,
+      "gun_user": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "support": 1,
+      "narrator": 1
+    },
+    "archetype": {
+      "doctor": 1,
+      "soldier": 1,
+      "companion": 1
+    },
+    "personality": {
+      "loyal": 1,
+      "brave": 1,
+      "practical": 1,
+      "caring": 1
+    }
+  },
+  "Jon Snow": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_got": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "has_sword": 1,
+      "wears_fur": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "leadership": 1,
+      "resurrection": 1,
+      "warging": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "leader": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "leader": 1,
+      "bastard": 1,
+      "king": 1
+    },
+    "personality": {
+      "honorable": 1,
+      "brave": 1,
+      "conflicted": 1,
+      "brooding": 1
+    }
+  },
+  "Kakashi Hatake": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_naruto": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "height_tall": 1,
+      "has_mask": 1,
+      "has_headband": 1
+    },
+    "abilities": {
+      "ninjutsu": 1,
+      "lightning_control": 1,
+      "sharingan": 1,
+      "copying_abilities": 1
+    },
+    "role": {
+      "mentor": 1,
+      "leader": 1,
+      "teacher": 1
+    },
+    "archetype": {
+      "ninja": 1,
+      "teacher": 1,
+      "commander": 1
+    },
+    "personality": {
+      "calm": 1,
+      "mysterious": 1,
+      "caring": 1,
+      "lazy": 1
+    }
+  },
+  "Katara": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_avatar": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "color_blue": 1
+    },
+    "abilities": {
+      "waterbending": 1,
+      "healing": 1,
+      "bloodbending": 1
+    },
+    "role": {
+      "support": 1,
+      "love_interest": 1,
+      "healer": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "healer": 1,
+      "waterbender": 1
+    },
+    "personality": {
+      "caring": 1,
+      "strong_willed": 1,
+      "motherly": 1,
+      "determined": 1
+    }
+  },
+  "Katniss Everdeen": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_hunger_games": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "has_bow": 1,
+      "distinctive_braid": 1
+    },
+    "abilities": {
+      "bow_user": 1,
+      "survival_skills": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "rebel": 1
+    },
+    "archetype": {
+      "archer": 1,
+      "hunter": 1,
+      "rebel": 1
+    },
+    "personality": {
+      "brave": 1,
+      "independent": 1,
+      "protective": 1,
+      "stubborn": 1
+    }
+  },
+  "Kratos": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_god": 1,
+      "alignment_neutral": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_god_of_war": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "color_pale": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "has_beard": 1,
+      "distinctive_tattoo": 1,
+      "bald": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "weapon_master": 1,
+      "god_powers": 1,
+      "rage_mode": 1
+    },
+    "role": {
+      "main_character": 1,
+      "anti_hero": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "god": 1,
+      "slayer": 1
+    },
+    "personality": {
+      "angry": 1,
+      "powerful": 1,
+      "determined": 1,
+      "protective": 1
+    }
+  },
+  "L Lawliet": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_death_note": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "distinctive_eyes": 1,
+      "casual_clothes": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "deduction": 1
+    },
+    "role": {
+      "deuteragonist": 1,
+      "detective": 1,
+      "rival": 1
+    },
+    "archetype": {
+      "detective": 1,
+      "genius": 1,
+      "investigator": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "eccentric": 1,
+      "obsessive": 1,
+      "mysterious": 1
+    }
+  },
+  "Lara Croft": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_tomb_raider": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "has_gun": 1,
+      "athletic": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "bow_user": 1,
+      "acrobatics": 1,
+      "archaeology": 1,
+      "survival_skills": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "adventurer": 1,
+      "icon": 1
+    },
+    "archetype": {
+      "archaeologist": 1,
+      "explorer": 1,
+      "adventurer": 1
+    },
+    "personality": {
+      "brave": 1,
+      "intelligent": 1,
+      "determined": 1,
+      "independent": 1
+    }
+  },
+  "Legolas": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_elf": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_lotr": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_tall": 1,
+      "pointed_ears": 1,
+      "has_bow": 1
+    },
+    "abilities": {
+      "bow_user": 1,
+      "super_agility": 1,
+      "keen_senses": 1
+    },
+    "role": {
+      "support": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "archer": 1,
+      "warrior": 1,
+      "prince": 1
+    },
+    "personality": {
+      "calm": 1,
+      "skilled": 1,
+      "elegant": 1,
+      "loyal": 1
+    }
+  },
+  "Levi Ackerman": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_aot": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_short": 1,
+      "has_sword": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "super_agility": 1,
+      "super_speed": 1,
+      "combat_master": 1
+    },
+    "role": {
+      "support": 1,
+      "mentor": 1,
+      "strongest_soldier": 1
+    },
+    "archetype": {
+      "soldier": 1,
+      "captain": 1,
+      "warrior": 1
+    },
+    "personality": {
+      "stoic": 1,
+      "skilled": 1,
+      "clean_freak": 1,
+      "caring": 1
+    }
+  },
+  "Light Yagami": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_death_note": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "wears_suit": 1
+    },
+    "abilities": {
+      "death_note": 1,
+      "super_intelligence": 1,
+      "manipulation": 1
+    },
+    "role": {
+      "main_character": 1,
+      "villain": 1,
+      "anti_hero": 1
+    },
+    "archetype": {
+      "student": 1,
+      "serial_killer": 1,
+      "god_complex": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "manipulative": 1,
+      "arrogant": 1,
+      "ruthless": 1
+    }
+  },
+  "Link": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_hylian": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_zelda": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "color_green": 1,
+      "has_sword": 1,
+      "has_shield": 1,
+      "has_hat": 1,
+      "pointed_ears": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "bomb_user": 1,
+      "bow_user": 1,
+      "magic_items": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "hero": 1,
+      "knight": 1
+    },
+    "personality": {
+      "brave": 1,
+      "silent": 1,
+      "heroic": 1,
+      "determined": 1
+    }
+  },
+  "Lisa Simpson": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_simpsons": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_yellow": 1,
+      "height_short": 1,
+      "color_yellow": 1,
+      "spiky_hair": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "music": 1
+    },
+    "role": {
+      "support": 1,
+      "voice_of_reason": 1,
+      "daughter": 1
+    },
+    "archetype": {
+      "student": 1,
+      "musician": 1,
+      "activist": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "caring": 1,
+      "moral": 1,
+      "mature": 1
+    }
+  },
+  "Loki": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_god": 1,
+      "alignment_evil": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "has_horned_helmet": 1,
+      "wears_armor": 1,
+      "color_green": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "shapeshifting": 1,
+      "illusions": 1,
+      "manipulation": 1
+    },
+    "role": {
+      "villain": 1,
+      "anti_hero": 1,
+      "trickster": 1
+    },
+    "archetype": {
+      "god": 1,
+      "trickster": 1,
+      "sorcerer": 1,
+      "prince": 1
+    },
+    "personality": {
+      "cunning": 1,
+      "mischievous": 1,
+      "complex": 1,
+      "jealous": 1
+    }
+  },
+  "Luigi": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_mario": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "has_mustache": 1,
+      "height_tall": 1,
+      "color_green": 1,
+      "has_hat": 1
+    },
+    "abilities": {
+      "super_jump": 1,
+      "power_ups": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "support": 1,
+      "hero": 1
+    },
+    "archetype": {
+      "plumber": 1,
+      "hero": 1
+    },
+    "personality": {
+      "brave": 1,
+      "timid": 1,
+      "loyal": 1,
+      "kind": 1
+    }
+  },
+  "Luke Skywalker": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_star_wars": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "wears_robe": 1,
+      "has_lightsaber": 1
+    },
+    "abilities": {
+      "force_user": 1,
+      "lightsaber": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "jedi": 1,
+      "farmer": 1
+    },
+    "personality": {
+      "brave": 1,
+      "optimistic": 1,
+      "determined": 1,
+      "compassionate": 1
+    }
+  },
+  "Mario": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_mario": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "has_mustache": 1,
+      "height_short": 1,
+      "color_red": 1,
+      "has_hat": 1
+    },
+    "abilities": {
+      "super_jump": 1,
+      "power_ups": 1,
+      "fire_control": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "icon": 1
+    },
+    "archetype": {
+      "plumber": 1,
+      "hero": 1,
+      "athlete": 1
+    },
+    "personality": {
+      "brave": 1,
+      "cheerful": 1,
+      "heroic": 1,
+      "determined": 1
+    }
+  },
+  "Master Chief": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_halo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "wears_armor": 1,
+      "has_helmet": 1,
+      "color_green": 1,
+      "height_tall": 1,
+      "has_gun": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "gun_user": 1,
+      "super_agility": 1,
+      "enhanced_reflexes": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "soldier": 1
+    },
+    "archetype": {
+      "soldier": 1,
+      "super_soldier": 1,
+      "warrior": 1
+    },
+    "personality": {
+      "stoic": 1,
+      "brave": 1,
+      "determined": 1,
+      "loyal": 1
+    }
+  },
+  "Michonne": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_walking_dead": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "has_sword": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "martial_arts": 1,
+      "survival_skills": 1
+    },
+    "role": {
+      "support": 1,
+      "warrior": 1,
+      "survivor": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "survivor": 1,
+      "lawyer": 1
+    },
+    "personality": {
+      "strong": 1,
+      "independent": 1,
+      "protective": 1,
+      "traumatized": 1
+    }
+  },
+  "Mikasa Ackerman": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_aot": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "has_scarf": 1,
+      "has_sword": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "super_agility": 1,
+      "combat_genius": 1
+    },
+    "role": {
+      "support": 1,
+      "warrior": 1,
+      "protector": 1
+    },
+    "archetype": {
+      "soldier": 1,
+      "warrior": 1,
+      "bodyguard": 1
+    },
+    "personality": {
+      "calm": 1,
+      "protective": 1,
+      "loyal": 1,
+      "skilled": 1
+    }
+  },
+  "Mike Wheeler": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_stranger_things": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1
+    },
+    "abilities": {
+      "leadership": 1,
+      "strategy": 1
+    },
+    "role": {
+      "main_character": 1,
+      "leader": 1,
+      "love_interest": 1
+    },
+    "archetype": {
+      "student": 1,
+      "friend": 1,
+      "leader": 1
+    },
+    "personality": {
+      "loyal": 1,
+      "brave": 1,
+      "caring": 1,
+      "determined": 1
+    }
+  },
+  "Monkey D. Luffy": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_one_piece": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "has_hat": 1,
+      "distinctive_scar": 1,
+      "color_red": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "elasticity": 1,
+      "martial_arts": 1,
+      "devil_fruit": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "captain": 1,
+      "leader": 1
+    },
+    "archetype": {
+      "pirate": 1,
+      "captain": 1,
+      "fighter": 1
+    },
+    "personality": {
+      "carefree": 1,
+      "determined": 1,
+      "loyal": 1,
+      "simple_minded": 1
+    }
+  },
+  "Nami": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_one_piece": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_orange": 1,
+      "height_average": 1
+    },
+    "abilities": {
+      "weather_control": 1,
+      "staff_user": 1,
+      "navigation": 1
+    },
+    "role": {
+      "support": 1,
+      "navigator": 1
+    },
+    "archetype": {
+      "pirate": 1,
+      "navigator": 1,
+      "thief": 1
+    },
+    "personality": {
+      "greedy": 1,
+      "intelligent": 1,
+      "caring": 1,
+      "emotional": 1
+    }
+  },
+  "Naruto Uzumaki": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_naruto": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "color_orange": 1,
+      "has_headband": 1
+    },
+    "abilities": {
+      "ninjutsu": 1,
+      "shadow_clones": 1,
+      "super_speed": 1,
+      "martial_arts": 1,
+      "rasengan": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "chosen_one": 1,
+      "underdog": 1
+    },
+    "archetype": {
+      "ninja": 1,
+      "student": 1,
+      "hokage": 1
+    },
+    "personality": {
+      "determined": 1,
+      "optimistic": 1,
+      "loyal": 1,
+      "impulsive": 1
+    }
+  },
+  "Nathan Drake": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_uncharted": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "has_gun": 1,
+      "casual_clothes": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "climbing": 1,
+      "treasure_hunting": 1,
+      "combat": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "treasure_hunter": 1
+    },
+    "archetype": {
+      "treasure_hunter": 1,
+      "explorer": 1,
+      "thief": 1
+    },
+    "personality": {
+      "charming": 1,
+      "funny": 1,
+      "brave": 1,
+      "adventurous": 1
+    }
+  },
+  "Olaf": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_snowman": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_frozen": 1,
+      "disney": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "color_white": 1,
+      "height_short": 1,
+      "distinctive_nose": 1,
+      "made_of_snow": 1
+    },
+    "abilities": {
+      "living_snowman": 1,
+      "detachable_parts": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "comedic_relief": 1,
+      "mascot": 1
+    },
+    "archetype": {
+      "snowman": 1,
+      "companion": 1,
+      "comic_relief": 1
+    },
+    "personality": {
+      "cheerful": 1,
+      "naive": 1,
+      "funny": 1,
+      "innocent": 1
+    }
+  },
+  "Patrick Star": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_starfish": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_spongebob": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "color_pink": 1,
+      "height_short": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "durability": 1,
+      "underwater_breathing": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "comedic_relief": 1,
+      "best_friend": 1
+    },
+    "archetype": {
+      "unemployed": 1,
+      "friend": 1,
+      "starfish": 1
+    },
+    "personality": {
+      "dumb": 1,
+      "funny": 1,
+      "loyal": 1,
+      "lazy": 1
+    }
+  },
+  "Peeta Mellark": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_hunger_games": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_tall": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "camouflage": 1
+    },
+    "role": {
+      "support": 1,
+      "love_interest": 1
+    },
+    "archetype": {
+      "baker": 1,
+      "artist": 1
+    },
+    "personality": {
+      "kind": 1,
+      "loyal": 1,
+      "artistic": 1,
+      "selfless": 1
+    }
+  },
+  "Piccolo": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_namekian": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_dragon_ball": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "color_green": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "pointed_ears": 1,
+      "has_cape": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "energy_blasts": 1,
+      "flying": 1,
+      "regeneration": 1,
+      "stretching": 1
+    },
+    "role": {
+      "mentor": 1,
+      "warrior": 1,
+      "anti_hero": 1
+    },
+    "archetype": {
+      "martial_artist": 1,
+      "warrior": 1,
+      "mentor": 1
+    },
+    "personality": {
+      "serious": 1,
+      "wise": 1,
+      "calm": 1,
+      "protective": 1
+    }
+  },
+  "Pikachu": {
+    "identity": {
+      "gender_neutral": 1,
+      "age_young": 1,
+      "species_pokemon": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_pokemon": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "color_yellow": 1,
+      "height_short": 1,
+      "distinctive_ears": 1,
+      "has_tail": 1,
+      "furry": 1
+    },
+    "abilities": {
+      "electricity": 1,
+      "super_speed": 1,
+      "lightning_attacks": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "mascot": 1,
+      "partner": 1
+    },
+    "archetype": {
+      "pokemon": 1,
+      "companion": 1
+    },
+    "personality": {
+      "loyal": 1,
+      "brave": 1,
+      "energetic": 1,
+      "cute": 1
+    }
+  },
+  "President Snow": {
+    "identity": {
+      "gender_m": 1,
+      "age_old": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_hunger_games": 1
+    },
+    "appearance": {
+      "hair_white": 1,
+      "has_beard": 1,
+      "height_average": 1,
+      "wears_suit": 1,
+      "wears_white_rose": 1,
+      "has_white_suit": 1
+    },
+    "abilities": {
+      "manipulation": 1,
+      "political_power": 1,
+      "poisoner": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "leader": 1,
+      "dictator": 1,
+      "president": 1
+    },
+    "archetype": {
+      "politician": 1,
+      "dictator": 1
+    },
+    "personality": {
+      "evil": 1,
+      "manipulative": 1,
+      "cruel": 1,
+      "calculating": 1
+    }
+  },
+  "Princess Leia": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_star_wars": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "distinctive_hairstyle": 1,
+      "wears_dress": 1
+    },
+    "abilities": {
+      "force_user": 1,
+      "leadership": 1
+    },
+    "role": {
+      "leader": 1,
+      "support": 1,
+      "hero": 1
+    },
+    "archetype": {
+      "royalty": 1,
+      "diplomat": 1,
+      "rebel_leader": 1
+    },
+    "personality": {
+      "brave": 1,
+      "strong_willed": 1,
+      "intelligent": 1,
+      "sarcastic": 1
+    }
+  },
+  "Princess Peach": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_mario": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "wears_dress": 1,
+      "color_pink": 1,
+      "has_crown": 1
+    },
+    "abilities": {
+      "floating": 1,
+      "magic": 1
+    },
+    "role": {
+      "damsel": 1,
+      "royalty": 1
+    },
+    "archetype": {
+      "royalty": 1,
+      "ruler": 1
+    },
+    "personality": {
+      "kind": 1,
+      "gentle": 1,
+      "elegant": 1
+    }
+  },
+  "Rick Grimes": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_walking_dead": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "has_beard": 1,
+      "height_tall": 1,
+      "has_gun": 1,
+      "wears_uniform": 1
+    },
+    "abilities": {
+      "gun_user": 1,
+      "leadership": 1,
+      "survival_skills": 1
+    },
+    "role": {
+      "main_character": 1,
+      "leader": 1,
+      "survivor": 1
+    },
+    "archetype": {
+      "sheriff": 1,
+      "leader": 1,
+      "survivor": 1
+    },
+    "personality": {
+      "determined": 1,
+      "protective": 1,
+      "traumatized": 1,
+      "ruthless": 1
+    }
+  },
+  "Ron Weasley": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_harry_potter": 1
+    },
+    "appearance": {
+      "hair_red": 1,
+      "height_tall": 1,
+      "wears_robe": 1,
+      "freckles": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "chess_player": 1,
+      "wand_user": 1
+    },
+    "role": {
+      "sidekick": 1,
+      "support": 1,
+      "best_friend": 1,
+      "comedic_relief": 1,
+      "gryffindor": 1
+    },
+    "archetype": {
+      "wizard": 1,
+      "student": 1,
+      "sidekick_best_friend": 1
+    },
+    "personality": {
+      "loyal": 1,
+      "funny": 1,
+      "insecure": 1,
+      "brave": 1,
+      "jealous": 1,
+      "food_lover": 1
+    }
+  },
+  "Roronoa Zoro": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_one_piece": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_green": 1,
+      "height_tall": 1,
+      "has_sword": 1,
+      "has_scar": 1,
+      "muscular": 1
+    },
+    "abilities": {
+      "sword_user": 1,
+      "three_sword_style": 1,
+      "super_strength": 1
+    },
+    "role": {
+      "support": 1,
+      "warrior": 1,
+      "right_hand": 1
+    },
+    "archetype": {
+      "pirate": 1,
+      "swordsman": 1,
+      "warrior": 1
+    },
+    "personality": {
+      "serious": 1,
+      "loyal": 1,
+      "determined": 1,
+      "directionally_challenged": 1
+    }
+  },
+  "Sakura Haruno": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_naruto": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_pink": 1,
+      "height_average": 1,
+      "color_red": 1,
+      "has_headband": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "medical_skills": 1,
+      "martial_arts": 1
+    },
+    "role": {
+      "support": 1,
+      "love_interest": 1,
+      "medical": 1
+    },
+    "archetype": {
+      "ninja": 1,
+      "medic": 1,
+      "student": 1
+    },
+    "personality": {
+      "caring": 1,
+      "emotional": 1,
+      "determined": 1,
+      "strong_willed": 1
+    }
+  },
+  "Sanji": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_one_piece": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_tall": 1,
+      "wears_suit": 1
+    },
+    "abilities": {
+      "martial_arts": 1,
+      "fire_control": 1,
+      "cooking": 1
+    },
+    "role": {
+      "support": 1,
+      "cook": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "pirate": 1,
+      "cook": 1,
+      "fighter": 1
+    },
+    "personality": {
+      "chivalrous": 1,
+      "passionate": 1,
+      "romantic": 1,
+      "skilled": 1
+    }
+  },
+  "Sasuke Uchiha": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_naruto": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "color_blue": 1,
+      "has_headband": 1
+    },
+    "abilities": {
+      "ninjutsu": 1,
+      "fire_control": 1,
+      "lightning_control": 1,
+      "sharingan": 1
+    },
+    "role": {
+      "rival": 1,
+      "anti_hero": 1,
+      "deuteragonist": 1
+    },
+    "archetype": {
+      "ninja": 1,
+      "avenger": 1,
+      "rogue": 1
+    },
+    "personality": {
+      "cold": 1,
+      "determined": 1,
+      "vengeful": 1,
+      "talented": 1
+    }
+  },
+  "Saul Goodman": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_neutral": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_breaking_bad": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_average": 1,
+      "wears_suit": 1,
+      "colorful_suit": 1
+    },
+    "abilities": {
+      "manipulation": 1,
+      "legal_expertise": 1,
+      "persuasion": 1
+    },
+    "role": {
+      "support": 1,
+      "comic_relief": 1,
+      "lawyer": 1
+    },
+    "archetype": {
+      "lawyer": 1,
+      "con_artist": 1,
+      "fixer": 1
+    },
+    "personality": {
+      "funny": 1,
+      "cunning": 1,
+      "cowardly": 1,
+      "clever": 1
+    }
+  },
+  "Sherlock Holmes": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_sherlock": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "wears_coat": 1,
+      "has_hat": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "deduction": 1
+    },
+    "role": {
+      "main_character": 1,
+      "detective": 1,
+      "genius": 1
+    },
+    "archetype": {
+      "detective": 1,
+      "consultant": 1,
+      "genius": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "arrogant": 1,
+      "observant": 1,
+      "antisocial": 1
+    }
+  },
+  "Shrek": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_ogre": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_shrek": 1,
+      "movie": 1
+    },
+    "appearance": {
+      "color_green": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "distinctive_ears": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "ogre_powers": 1,
+      "roar": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "anti_hero": 1
+    },
+    "archetype": {
+      "ogre": 1,
+      "hermit": 1,
+      "hero": 1
+    },
+    "personality": {
+      "grumpy": 1,
+      "kind_hearted": 1,
+      "misunderstood": 1,
+      "loyal": 1
+    }
+  },
+  "Sokka": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_avatar": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_brown": 1,
+      "height_tall": 1,
+      "has_weapon": 1,
+      "color_blue": 1
+    },
+    "abilities": {
+      "weapon_user": 1,
+      "strategy": 1,
+      "engineering": 1
+    },
+    "role": {
+      "support": 1,
+      "strategist": 1,
+      "comedic_relief": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "strategist": 1,
+      "engineer": 1
+    },
+    "personality": {
+      "funny": 1,
+      "strategic": 1,
+      "brave": 1,
+      "sarcastic": 1
+    }
+  },
+  "Sonic the Hedgehog": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_hedgehog": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_sonic": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "color_blue": 1,
+      "height_short": 1,
+      "spiky_hair": 1,
+      "has_tail": 1,
+      "distinctive_shoes": 1
+    },
+    "abilities": {
+      "super_speed": 1,
+      "spin_attack": 1,
+      "running": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "icon": 1
+    },
+    "archetype": {
+      "hero": 1,
+      "speedster": 1,
+      "adventurer": 1
+    },
+    "personality": {
+      "cocky": 1,
+      "brave": 1,
+      "fast": 1,
+      "carefree": 1
+    }
+  },
+  "Spider-Man": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "wears_mask": 1,
+      "color_red": 1,
+      "color_blue": 1,
+      "height_average": 1,
+      "has_symbol": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "wall_crawling": 1,
+      "web_shooting": 1,
+      "spider_sense": 1,
+      "super_agility": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "friendly_neighborhood": 1
+    },
+    "archetype": {
+      "superhero": 1,
+      "student": 1,
+      "photographer": 1
+    },
+    "personality": {
+      "funny": 1,
+      "responsible": 1,
+      "caring": 1,
+      "anxious": 1
+    }
+  },
+  "SpongeBob SquarePants": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_sponge": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_spongebob": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "color_yellow": 1,
+      "height_short": 1,
+      "square_shaped": 1,
+      "distinctive_eyes": 1
+    },
+    "abilities": {
+      "underwater_breathing": 1,
+      "regeneration": 1,
+      "cooking": 1,
+      "karate": 1
+    },
+    "role": {
+      "main_character": 1,
+      "comedic_character": 1,
+      "optimist": 1
+    },
+    "archetype": {
+      "fry_cook": 1,
+      "optimist": 1,
+      "friend": 1
+    },
+    "personality": {
+      "optimistic": 1,
+      "cheerful": 1,
+      "naive": 1,
+      "hardworking": 1
+    }
+  },
+  "Squidward Tentacles": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_octopus": 1,
+      "alignment_neutral": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_spongebob": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "color_teal": 1,
+      "height_average": 1,
+      "distinctive_nose": 1
+    },
+    "abilities": {
+      "music": 1,
+      "art": 1,
+      "underwater_breathing": 1
+    },
+    "role": {
+      "neighbor": 1,
+      "comedic_character": 1,
+      "antagonist": 1
+    },
+    "archetype": {
+      "cashier": 1,
+      "artist": 1,
+      "musician": 1
+    },
+    "personality": {
+      "grumpy": 1,
+      "sarcastic": 1,
+      "artistic": 1,
+      "miserable": 1
+    }
+  },
+  "Superman": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_kryptonian": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_dc": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "has_cape": 1,
+      "color_blue": 1,
+      "color_red": 1,
+      "has_symbol": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "super_speed": 1,
+      "flying": 1,
+      "laser_vision": 1,
+      "invulnerability": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "leader": 1,
+      "icon": 1
+    },
+    "archetype": {
+      "superhero": 1,
+      "journalist": 1,
+      "alien": 1
+    },
+    "personality": {
+      "heroic": 1,
+      "compassionate": 1,
+      "optimistic": 1,
+      "selfless": 1
+    }
+  },
+  "Thanos": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_titan": 1,
+      "alignment_evil": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "color_purple": 1,
+      "height_tall": 1,
+      "muscular": 1,
+      "wears_armor": 1,
+      "has_gauntlet": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "invulnerability": 1,
+      "energy_manipulation": 1,
+      "cosmic_power": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "main_villain": 1
+    },
+    "archetype": {
+      "warlord": 1,
+      "conqueror": 1,
+      "titan": 1
+    },
+    "personality": {
+      "determined": 1,
+      "ruthless": 1,
+      "philosophical": 1,
+      "powerful": 1
+    }
+  },
+  "The Joker": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_dc": 1
+    },
+    "appearance": {
+      "hair_green": 1,
+      "height_tall": 1,
+      "distinctive_face": 1,
+      "color_purple": 1,
+      "wears_suit": 1
+    },
+    "abilities": {
+      "manipulation": 1,
+      "chaos_creation": 1,
+      "unpredictable": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "chaos_agent": 1
+    },
+    "archetype": {
+      "criminal": 1,
+      "terrorist": 1,
+      "clown": 1
+    },
+    "personality": {
+      "chaotic": 1,
+      "insane": 1,
+      "unpredictable": 1,
+      "sadistic": 1
+    }
+  },
+  "Thor": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_god": 1,
+      "alignment_good": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_marvel": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_tall": 1,
+      "has_hammer": 1,
+      "has_cape": 1,
+      "wears_armor": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "weather_control": 1,
+      "flying": 1,
+      "hammer_user": 1,
+      "lightning": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "royalty": 1
+    },
+    "archetype": {
+      "god": 1,
+      "warrior": 1,
+      "prince": 1,
+      "superhero": 1
+    },
+    "personality": {
+      "brave": 1,
+      "noble": 1,
+      "arrogant": 1,
+      "loyal": 1
+    }
+  },
+  "Tyrion Lannister": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_got": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "has_beard": 1,
+      "height_short": 1
+    },
+    "abilities": {
+      "super_intelligence": 1,
+      "strategy": 1,
+      "diplomacy": 1
+    },
+    "role": {
+      "support": 1,
+      "advisor": 1,
+      "wit": 1
+    },
+    "archetype": {
+      "nobleman": 1,
+      "politician": 1,
+      "strategist": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "witty": 1,
+      "cynical": 1,
+      "caring": 1
+    }
+  },
+  "Vecna": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_monster": 1,
+      "alignment_evil": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_stranger_things": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "color_pale": 1,
+      "height_tall": 1,
+      "distinctive_face": 1,
+      "monstrous": 1
+    },
+    "abilities": {
+      "psychic_powers": 1,
+      "mind_control": 1,
+      "reality_manipulation": 1,
+      "super_strength": 1
+    },
+    "role": {
+      "villain": 1,
+      "antagonist": 1,
+      "main_villain": 1
+    },
+    "archetype": {
+      "monster": 1,
+      "villain": 1,
+      "psychic": 1
+    },
+    "personality": {
+      "evil": 1,
+      "powerful": 1,
+      "vengeful": 1,
+      "sadistic": 1
+    }
+  },
+  "Vegeta": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_saiyan": 1,
+      "alignment_neutral": 1,
+      "origin_space": 1
+    },
+    "franchise": {
+      "franchise_dragon_ball": 1,
+      "anime": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "muscular": 1,
+      "spiky_hair": 1,
+      "has_armor": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "super_speed": 1,
+      "energy_blasts": 1,
+      "flying": 1,
+      "transformation": 1,
+      "ki_control": 1
+    },
+    "role": {
+      "rival": 1,
+      "anti_hero": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "martial_artist": 1,
+      "warrior": 1,
+      "prince": 1
+    },
+    "personality": {
+      "proud": 1,
+      "determined": 1,
+      "arrogant": 1,
+      "competitive": 1
+    }
+  },
+  "Walter White": {
+    "identity": {
+      "gender_m": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_evil": 1,
+      "origin_earth": 1
+    },
+    "franchise": {
+      "franchise_breaking_bad": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "bald": 1,
+      "has_goatee": 1,
+      "height_average": 1,
+      "has_glasses": 1
+    },
+    "abilities": {
+      "chemistry": 1,
+      "super_intelligence": 1,
+      "manipulation": 1
+    },
+    "role": {
+      "main_character": 1,
+      "villain": 1,
+      "anti_hero": 1,
+      "tragic": 1
+    },
+    "archetype": {
+      "teacher": 1,
+      "chemist": 1,
+      "drug_lord": 1
+    },
+    "personality": {
+      "intelligent": 1,
+      "prideful": 1,
+      "ruthless": 1,
+      "manipulative": 1
+    }
+  },
+  "Wonder Woman": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_demigod": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_dc": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "wears_armor": 1,
+      "has_sword": 1,
+      "has_shield": 1,
+      "color_red": 1
+    },
+    "abilities": {
+      "super_strength": 1,
+      "sword_user": 1,
+      "flying": 1,
+      "lasso": 1
+    },
+    "role": {
+      "main_character": 1,
+      "hero": 1,
+      "leader": 1,
+      "warrior": 1
+    },
+    "archetype": {
+      "warrior": 1,
+      "superhero": 1,
+      "ambassador": 1,
+      "princess": 1
+    },
+    "personality": {
+      "brave": 1,
+      "compassionate": 1,
+      "strong_willed": 1,
+      "noble": 1
+    }
+  },
+  "Yennefer": {
+    "identity": {
+      "gender_f": 1,
+      "age_adult": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_witcher": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_average": 1,
+      "wears_dress": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "powerful_magic": 1,
+      "teleportation": 1
+    },
+    "role": {
+      "support": 1,
+      "love_interest": 1,
+      "powerful_ally": 1
+    },
+    "archetype": {
+      "sorceress": 1,
+      "advisor": 1
+    },
+    "personality": {
+      "strong_willed": 1,
+      "proud": 1,
+      "caring": 1,
+      "ambitious": 1
+    }
+  },
+  "Zelda": {
+    "identity": {
+      "gender_f": 1,
+      "age_young": 1,
+      "species_hylian": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_zelda": 1,
+      "nintendo": 1,
+      "video_game": 1
+    },
+    "appearance": {
+      "hair_blonde": 1,
+      "height_average": 1,
+      "wears_dress": 1,
+      "pointed_ears": 1,
+      "has_crown": 1
+    },
+    "abilities": {
+      "magic": 1,
+      "light_power": 1,
+      "wisdom": 1
+    },
+    "role": {
+      "support": 1,
+      "royalty": 1,
+      "wise": 1
+    },
+    "archetype": {
+      "royalty": 1,
+      "princess": 1,
+      "sage": 1
+    },
+    "personality": {
+      "wise": 1,
+      "kind": 1,
+      "brave": 1,
+      "intelligent": 1
+    }
+  },
+  "Zuko": {
+    "identity": {
+      "gender_m": 1,
+      "age_young": 1,
+      "species_human": 1,
+      "alignment_good": 1,
+      "origin_fantasy": 1
+    },
+    "franchise": {
+      "franchise_avatar": 1,
+      "tv_show": 1
+    },
+    "appearance": {
+      "hair_black": 1,
+      "height_tall": 1,
+      "has_scar": 1
+    },
+    "abilities": {
+      "firebending": 1,
+      "sword_user": 1,
+      "lightning_redirection": 1
+    },
+    "role": {
+      "rival": 1,
+      "anti_hero": 1,
+      "deuteragonist": 1
+    },
+    "archetype": {
+      "prince": 1,
+      "warrior": 1,
+      "firebender": 1
+    },
+    "personality": {
+      "conflicted": 1,
+      "determined": 1,
+      "honorable": 1,
+      "angry": 1
+    }
+  }
 }

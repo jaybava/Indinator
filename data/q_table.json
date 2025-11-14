@@ -1,0 +1,366 @@
+{
+  "q_values": {
+    "4_0_0_5": {
+      "franchise_franchise_dragon_ball": 25.591050428993995,
+      "abilities_ninjutsu": 84.22652061903743,
+      "franchise_anime": 92.46347406769476,
+      "franchise_video_game": 92.10937679512038,
+      "franchise_tv_show": 92.23969265366722,
+      "franchise_nintendo": 62.22124807798765,
+      "franchise_franchise_breaking_bad": 87.9311937072741,
+      "franchise_franchise_simpsons": 91.26383025473386,
+      "appearance_color_green": 0.4095989507648307,
+      "franchise_disney": 89.91769753593161,
+      "appearance_color_orange": 1.08541,
+      "abilities_underwater_breathing": 77.16879732982468,
+      "appearance_color_black": 24.57985193158571,
+      "franchise_franchise_god_of_war": 26.493517416513743,
+      "franchise_franchise_witcher": 89.81004656208306,
+      "appearance_distinctive_look": 24.296338828960238,
+      "appearance_color_gold": 42.39485080554021,
+      "appearance_color_pale": 4.041550643447592
+    },
+    "4_0_1_5": {
+      "abilities_titan_shifting": 11.757954955457643,
+      "appearance_hair_green": 22.223312427429843,
+      "appearance_hair_pink": 24.964165138562148,
+      "appearance_hair_orange": 21.953244462167287,
+      "franchise_franchise_death_note": 25.577498900776238,
+      "abilities_ring_bearer": -3.6138346599053115,
+      "appearance_distinctive_scar": 16.22240878508579,
+      "appearance_color_gray": 19.268674448834005,
+      "appearance_color_red": 22.36017732586332,
+      "appearance_color_black": 42.69833257254253,
+      "appearance_color_pale": 24.38173841011511,
+      "appearance_distinctive_look": 1.14181625,
+      "appearance_color_green": 43.32886090696069,
+      "franchise_franchise_tlou": 18.973574597994478,
+      "abilities_dragon_control": 10.926023986085369,
+      "franchise_franchise_walking_dead": 19.79087474101685,
+      "appearance_color_blue": 43.039193439523814,
+      "appearance_color_orange": 24.362730327236225,
+      "appearance_has_ring": -8.870350194875646,
+      "abilities_political_power": 14.21702725601121,
+      "appearance_distinctive_hairstyle": 43.34293776272785,
+      "appearance_color_teal": 2.2584978494328007
+    },
+    "4_1_2_5": {
+      "abilities_pokemon_trainer": 7.80898465180535,
+      "abilities_combat_master": 7.785823934210653,
+      "abilities_combat_genius": 9.672338859343293,
+      "appearance_distinctive_scar": 1.072075,
+      "abilities_lightning_redirection": 2.8482011300589134,
+      "abilities_assassination": 5.061087952564505,
+      "abilities_diplomacy": 9.208610622461645,
+      "abilities_resurrection": 6.985417989008024,
+      "abilities_electricity": 4.144264292320087,
+      "abilities_cooking": 1.5367750000000002,
+      "abilities_strategy": 0.5666666666666668,
+      "appearance_distinctive_braid": 0.2665455281445312,
+      "abilities_talking": 0.28023697751855464,
+      "abilities_cosmic_power": -3.028572423535643,
+      "abilities_elder_wand": -6.710691933129997,
+      "appearance_has_glasses": 6.888708974049163,
+      "abilities_rage_power": 0.8090909090909092
+    },
+    "terminal": {},
+    "3_2_0_1": {
+      "appearance_color_orange": 7.288153194858151,
+      "abilities_chemistry": 14.189102979260001,
+      "appearance_color_pink": 1.3207046428571427,
+      "appearance_color_teal": 9.752668440839178
+    },
+    "3_3_1_1": {
+      "appearance_color_green": 1.14181625,
+      "franchise_franchise_naruto": 6.145430398257144,
+      "appearance_color_teal": 1.383357142857143,
+      "abilities_healing": 0.9762142857142857,
+      "appearance_color_pink": 4.245666666666667,
+      "abilities_engineering": 4.118910303968254
+    },
+    "3_4_1_5": {
+      "franchise_franchise_pokemon": 1.19675,
+      "appearance_distinctive_eyes": 1.3285714285714287,
+      "abilities_engineering": 0.9,
+      "abilities_healing": 1.71,
+      "franchise_franchise_mario": 1.3285714285714287
+    },
+    "3_5_1_5": {
+      "appearance_spiky_hair": 4.8196646111111106,
+      "appearance_distinctive_face": 3.9548500000000004,
+      "abilities_dimensional_travel": 4.245666666666667,
+      "franchise_franchise_death_note": 5.334421441111111,
+      "abilities_inventions": 1.71,
+      "franchise_franchise_god_of_war": 2.7649682075,
+      "appearance_distinctive_shoes": 1.1500000000000001
+    },
+    "3_1_0_2": {
+      "abilities_power_ups": 25.028884777891825,
+      "franchise_franchise_zelda": 16.746251603865925
+    },
+    "1_4_0_2": {
+      "appearance_color_green": 1.9000000000000001,
+      "archetype_activist": 9.828240000000001,
+      "appearance_color_red": 8.902621
+    },
+    "1_4_0_1": {
+      "abilities_street_smarts": 8.902621
+    },
+    "4_0_2_5": {
+      "abilities_force_user": -4.720972591221989,
+      "appearance_has_bow": -7.076973690649044,
+      "abilities_piloting": -7.266334984009114,
+      "abilities_camouflage": -9.542969391163089,
+      "abilities_intelligent": -10.689669082849548,
+      "appearance_distinctive_hairstyle": -7.831749084677502,
+      "abilities_whip_user": -7.812285744469632,
+      "appearance_has_lightsaber": -7.007828981627536,
+      "abilities_archaeology": -2.745628834111205,
+      "abilities_keen_senses": -2.350200447374732,
+      "appearance_distinctive_braid": -2.4906940701670175,
+      "abilities_talking": 1.1861191801350779,
+      "abilities_cosmic_power": 11.248590560204438,
+      "appearance_has_staff": 12.351336397039159,
+      "appearance_has_ring": 13.20830583838967,
+      "abilities_chess_player": 9.60111236563236,
+      "abilities_elder_wand": -1.973005986109525
+    },
+    "3_3_2_1": {
+      "appearance_has_lightsaber": 0.6369285714285715
+    },
+    "3_4_2_5": {
+      "appearance_distinctive_hairstyle": 0.6142857142857143,
+      "abilities_keen_senses": 1.2715384615384617,
+      "abilities_force_user": 0.6692307692307693
+    },
+    "4_2_2_5": {
+      "abilities_electricity": 0.5666666666666668,
+      "abilities_archaeology": 3.3133081818181824
+    },
+    "3_3_2_2": {
+      "appearance_has_ring": 1.7032961033333336,
+      "abilities_ring_bearer": 3.1289795333333337,
+      "appearance_distinctive_braid": 2.5082796410256414
+    },
+    "1_4_2_2": {
+      "archetype_ring_bearer": 3.436099333333334
+    },
+    "4_1_1_5": {
+      "franchise_franchise_halo": 16.25254315192422,
+      "appearance_color_red": 10.351499506444444,
+      "appearance_distinctive_shoes": 11.833639179777071,
+      "abilities_climbing": 5.418777518818183,
+      "abilities_combat_master": 3.0070360499418927,
+      "appearance_hair_pink": 4.1010944555889886,
+      "appearance_hair_green": 4.033218934755654,
+      "appearance_hair_orange": 3.9687371899639876,
+      "franchise_franchise_death_note": 3.9074795324119043,
+      "abilities_resurrection": 0.9,
+      "appearance_color_blue": 2.3939915994328005,
+      "appearance_color_pink": 2.3464915994328006,
+      "appearance_distinctive_look": 2.301366599432801,
+      "franchise_franchise_tlou": 2.0216555353525014
+    },
+    "2_4_1_5": {
+      "appearance_color_green": 1.1500000000000001,
+      "appearance_color_blue": 7.0446643765,
+      "abilities_crafting": 3.9548500000000004
+    },
+    "4_0_3_5": {
+      "abilities_gadgets": -13.39722178538351,
+      "abilities_hammer_user": -11.342568974754556,
+      "abilities_cosmic_power": -12.445729980327528,
+      "appearance_distinctive_face": -13.733136898847782,
+      "abilities_whip_user": -3.251247048623046,
+      "abilities_piloting": -15.219811578411484,
+      "abilities_camouflage": -10.395639030693424,
+      "abilities_healing": -8.001929906088185,
+      "abilities_intelligent": -9.44541007737553,
+      "abilities_chaos_creation": -7.285563604106105
+    },
+    "4_0_4_5": {
+      "appearance_has_staff": -9.39324375,
+      "abilities_deduction": -18.714305057421377,
+      "abilities_medical_skills": -14.82033701213166,
+      "abilities_healing": -13.142206080235848,
+      "abilities_gadgets": -13.507854765977202,
+      "appearance_distinctive_face": -14.572350881122837,
+      "abilities_sword_user": -4.6789875,
+      "abilities_chaos_creation": 0.36792250000000004,
+      "abilities_hammer_user": -4.1375786125,
+      "abilities_powerful_magic": -4.735424418750001
+    },
+    "4_1_4_5": {
+      "abilities_powerful_magic": -13.821000000000002,
+      "abilities_medical_skills": -25.75684507620618,
+      "abilities_healing": -8.8058653125,
+      "appearance_has_staff": -22.80698934,
+      "abilities_deduction": -19.1982822187971,
+      "appearance_has_glasses": -3.1438,
+      "abilities_chess_player": 0.4,
+      "abilities_hammer_user": -11.83161452875,
+      "abilities_piloting": -3.775478837499999,
+      "appearance_has_lightsaber": -9.690000000000001,
+      "abilities_gadgets": -13.014389703749998,
+      "abilities_camouflage": -4.348875,
+      "abilities_whip_user": -5.1000000000000005,
+      "abilities_chaos_creation": -4.348875,
+      "abilities_keen_senses": -4.134531249999999,
+      "abilities_lasso": -4.348875,
+      "abilities_talking": -4.134531249999999
+    },
+    "2_4_2_5": {
+      "abilities_hardening": 3.7910682727272733
+    },
+    "4_1_0_3": {
+      "appearance_color_white": 11.544273755765632
+    },
+    "3_2_0_2": {
+      "appearance_hair_yellow": 16.2605524177
+    },
+    "4_4_0_5": {
+      "abilities_luck": 6.5040000000000004
+    },
+    "4_1_1_3": {
+      "appearance_color_blue": 12.462784393697127,
+      "appearance_color_gold": 14.70498486552673
+    },
+    "4_2_1_3": {
+      "appearance_color_gold": 1.051611111111111,
+      "abilities_gadgets": 5.729987833333333,
+      "appearance_color_blue": 6.0507813452380965,
+      "appearance_color_red": 1.19675,
+      "appearance_iconic_mask": 7.626849696801419,
+      "abilities_espionage": 3.4092865167857145,
+      "abilities_ogre_powers": 1.734630838909137
+    },
+    "4_3_1_3": {
+      "abilities_lasso": 1.9211111111111112,
+      "appearance_color_red": 1.998061111111111,
+      "abilities_bravery": 2.363571428571429,
+      "appearance_color_black": 1.2700055555555556
+    },
+    "4_2_3_5": {
+      "abilities_cooking": 0.525,
+      "appearance_distinctive_scar": 0.9975
+    },
+    "2_3_1_5": {
+      "appearance_color_pale": 8.173348566666666,
+      "appearance_distinctive_eyes": 10.458216161605277,
+      "franchise_franchise_halo": 4.7660529575,
+      "abilities_survival_skills": 6.079813606372728,
+      "abilities_crafting": 1.5942700369055556
+    },
+    "2_2_1_1": {
+      "appearance_color_orange": 12.703389570430193
+    },
+    "2_3_1_1": {
+      "appearance_color_green": 8.972393254574152
+    },
+    "3_3_1_2": {
+      "appearance_color_pink": 5.239285952380953
+    },
+    "2_2_1_0": {
+      "appearance_has_symbol": 9.871144576087866
+    },
+    "1_4_1_4": {
+      "abilities_shield_user": 5.5132155990000005
+    },
+    "1_4_1_1": {
+      "appearance_color_blue": 4.568957142857144,
+      "abilities_dark_magic": 8.653272152957143,
+      "appearance_color_orange": 1.383357142857143
+    },
+    "2_5_1_5": {
+      "appearance_hair_orange": 5.3884285,
+      "franchise_franchise_tlou": 2.185
+    },
+    "1_3_1_0": {
+      "appearance_color_green": 12.997877924064447
+    },
+    "3_4_0_5": {
+      "abilities_legal_expertise": 5.149000000000001
+    },
+    "2_2_0_1": {
+      "appearance_distinctive_scar": 8.268159820721134
+    },
+    "1_4_1_0": {
+      "abilities_laser_vision": 4.6953279000000006
+    },
+    "1_4_2_1": {
+      "abilities_sword_user": 4.608038028181819
+    },
+    "3_1_1_3": {
+      "appearance_distinctive_ears": 4.903333453615046
+    },
+    "3_2_1_3": {
+      "abilities_rage_power": 2.928326
+    },
+    "3_2_1_2": {
+      "appearance_iconic_mask": 1.1500000000000001
+    },
+    "4_3_1_5": {
+      "abilities_espionage": 1.011111111111111,
+      "abilities_gadgets": 1.011111111111111,
+      "abilities_talking": 2.185
+    },
+    "4_2_2_3": {
+      "abilities_illusions": 2.1674009090909094
+    },
+    "4_3_2_5": {
+      "abilities_ogre_powers": 1.3933333333333335
+    },
+    "4_4_1_5": {
+      "appearance_has_glasses": 1.71
+    },
+    "3_3_4_1": {
+      "abilities_healing": 0.4
+    },
+    "3_3_0_1": {
+      "appearance_color_pink": 1.9000000000000001
+    },
+    "2_3_4_5": {
+      "appearance_has_staff": 0.4,
+      "abilities_elder_wand": 0.4
+    },
+    "4_1_3_5": {
+      "abilities_piloting": -6.219778026686847,
+      "abilities_camouflage": -5.711878990701496,
+      "abilities_lasso": -6.600830223445312,
+      "abilities_chaos_creation": -6.344118344767316,
+      "abilities_keen_senses": -6.929588986890233,
+      "appearance_distinctive_braid": -9.753805994115057,
+      "abilities_talking": -5.3556726662102525,
+      "abilities_hammer_user": -0.20153577828997396
+    },
+    "4_1_0_5": {
+      "franchise_franchise_god_of_war": 2.939575295696116,
+      "franchise_franchise_halo": 2.850318574966131,
+      "franchise_franchise_witcher": 2.515710349432801
+    },
+    "4_2_0_5": {
+      "appearance_color_pale": 1.9000000000000001
+    },
+    "3_3_3_4": {
+      "abilities_elder_wand": 4.3744479607675055
+    },
+    "4_2_0_4": {
+      "appearance_color_white": 1.08541
+    },
+    "4_2_1_5": {
+      "abilities_bravery": 1.1500000000000001,
+      "appearance_color_gold": 1.19675,
+      "appearance_color_blue": 1.14181625
+    },
+    "3_3_0_2": {
+      "franchise_franchise_naruto": 2.0113465688166428
+    },
+    "1_5_1_1": {
+      "appearance_color_blue": 1.3285714285714287
+    }
+  },
+  "episode_count": 70,
+  "alpha": 0.1,
+  "gamma": 0.95,
+  "epsilon": 0.14081393921072605
+}

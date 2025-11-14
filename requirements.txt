@@ -2,6 +2,7 @@ bs4
 fastapi
 matplotlib
 numpy
+openai
 pandas
 pathlib
 pydantic
@@ -12,3 +13,4 @@ streamlit
 typing
 unidecode
 uvicorn
+wikipedia
