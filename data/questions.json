@@ -3393,5 +3393,390 @@
     "trait": "role_order_of_phoenix_leader",
     "group": "role",
     "question": "Does your character lead the Order of the Phoenix?"
+  },
+  {
+    "trait": "appearance_has_pipe",
+    "group": "appearance",
+    "question": "Does your character smoke a pipe?"
+  },
+  {
+    "trait": "abilities_violin",
+    "group": "abilities",
+    "question": "Can your character play the violin?"
+  },
+  {
+    "trait": "abilities_disguise",
+    "group": "abilities",
+    "question": "Is your character skilled at disguises?"
+  },
+  {
+    "trait": "abilities_observation",
+    "group": "abilities",
+    "question": "Is your character exceptionally observant?"
+  },
+  {
+    "trait": "role_consulting_detective",
+    "group": "role",
+    "question": "Is your character a consulting detective?"
+  },
+  {
+    "trait": "archetype_sleuth",
+    "group": "archetype",
+    "question": "Is your character an investigator?"
+  },
+  {
+    "trait": "abilities_jedi_mind_trick",
+    "group": "abilities",
+    "question": "Can your character use Jedi mind tricks?"
+  },
+  {
+    "trait": "archetype_jedi_knight",
+    "group": "archetype",
+    "question": "Is your character a Jedi Knight?"
+  },
+  {
+    "trait": "abilities_duplication",
+    "group": "abilities",
+    "question": "Can your character create duplicates or clones of themselves?"
+  },
+  {
+    "trait": "abilities_scepter",
+    "group": "abilities",
+    "question": "Does your character wield a powerful scepter?"
+  },
+  {
+    "trait": "archetype_asgardian",
+    "group": "archetype",
+    "question": "Is your character from Asgard?"
+  },
+  {
+    "trait": "personality_theatrical",
+    "group": "personality",
+    "question": "Is your character dramatic in their personality?"
+  },
+  {
+    "trait": "appearance_has_blaster",
+    "group": "appearance",
+    "question": "Does your character carry a blaster?"
+  },
+  {
+    "trait": "abilities_millennium_falcon",
+    "group": "abilities",
+    "question": "Does your character pilot the Millennium Falcon?"
+  },
+  {
+    "trait": "archetype_space_cowboy",
+    "group": "archetype",
+    "question": "Is your character like a space cowboy?"
+  },
+  {
+    "trait": "personality_roguish",
+    "group": "personality",
+    "question": "Does your character have a roguish personality?"
+  },
+  {
+    "trait": "appearance_hair_bushy",
+    "group": "appearance",
+    "question": "Does your character have bushy or frizzy hair?"
+  },
+  {
+    "trait": "appearance_has_wand",
+    "group": "appearance",
+    "question": "Does your character carry a wand?"
+  },
+  {
+    "trait": "abilities_spell_expert",
+    "group": "abilities",
+    "question": "Is your character an expert at casting spells?"
+  },
+  {
+    "trait": "abilities_time_turner",
+    "group": "abilities",
+    "question": "Has your character used a Time-Turner?"
+  },
+  {
+    "trait": "abilities_research",
+    "group": "abilities",
+    "question": "Is your character excellent at research and studying?"
+  },
+  {
+    "trait": "role_brightest_student",
+    "group": "role",
+    "question": "Is your character known as the brightest student?"
+  },
+  {
+    "trait": "archetype_bookworm",
+    "group": "archetype",
+    "question": "Is your character a bookworm who loves to read?"
+  },
+  {
+    "trait": "personality_bossy",
+    "group": "personality",
+    "question": "Is your character sometimes bossy or know-it-all?"
+  },
+  {
+    "trait": "franchise_british",
+    "group": "franchise",
+    "question": "Is your character from a British franchise?"
+  },
+  {
+    "trait": "appearance_tuxedo",
+    "group": "appearance",
+    "question": "Does your character frequently wear a tuxedo?"
+  },
+  {
+    "trait": "abilities_seduction",
+    "group": "abilities",
+    "question": "Is your character charming?"
+  },
+  {
+    "trait": "abilities_007",
+    "group": "abilities",
+    "question": "Is your character a secret agent with a number code like 007?"
+  },
+  {
+    "trait": "role_secret_agent",
+    "group": "role",
+    "question": "Is your character a secret agent?"
+  },
+  {
+    "trait": "archetype_007",
+    "group": "archetype",
+    "question": "Is your character Agent 007?"
+  },
+  {
+    "trait": "personality_sophisticated",
+    "group": "personality",
+    "question": "Is your character sophisticated?"
+  },
+  {
+    "trait": "abilities_writing",
+    "group": "abilities",
+    "question": "Is your character skilled at writing?"
+  },
+  {
+    "trait": "abilities_military",
+    "group": "abilities",
+    "question": "Does your character have military training or experience?"
+  },
+  {
+    "trait": "role_chronicler",
+    "group": "role",
+    "question": "Does your character document events?"
+  },
+  {
+    "trait": "archetype_army_doctor",
+    "group": "archetype",
+    "question": "Is your character a military doctor?"
+  },
+  {
+    "trait": "archetype_biographer",
+    "group": "archetype",
+    "question": "Does your character write about someone's life story?"
+  },
+  {
+    "trait": "personality_patient",
+    "group": "personality",
+    "question": "Is your character notably patient?"
+  },
+  {
+    "trait": "abilities_baking",
+    "group": "abilities",
+    "question": "Is your character skilled at baking?"
+  },
+  {
+    "trait": "abilities_painting",
+    "group": "abilities",
+    "question": "Is your character skilled at painting or art?"
+  },
+  {
+    "trait": "abilities_cake_decorating",
+    "group": "abilities",
+    "question": "Is your character skilled at cake decorating?"
+  },
+  {
+    "trait": "role_tribute",
+    "group": "role",
+    "question": "Is your character a tribute in a deadly competition?"
+  },
+  {
+    "trait": "archetype_tribute",
+    "group": "archetype",
+    "question": "Has your character been a tribute in the Hunger Games?"
+  },
+  {
+    "trait": "personality_romantic",
+    "group": "personality",
+    "question": "Is your character romantic?"
+  },
+  {
+    "trait": "appearance_has_pin",
+    "group": "appearance",
+    "question": "Does your character wear a distinctive pin?"
+  },
+  {
+    "trait": "appearance_mockingjay",
+    "group": "appearance",
+    "question": "Is your character associated with a mockingjay symbol?"
+  },
+  {
+    "trait": "abilities_hunting",
+    "group": "abilities",
+    "question": "Is your character skilled at hunting?"
+  },
+  {
+    "trait": "abilities_archery_expert",
+    "group": "abilities",
+    "question": "Is your character an expert archer?"
+  },
+  {
+    "trait": "role_mockingjay",
+    "group": "role",
+    "question": "Is your character known as the Mockingjay?"
+  },
+  {
+    "trait": "role_symbol",
+    "group": "role",
+    "question": "Is your character a symbol of rebellion?"
+  },
+  {
+    "trait": "personality_reluctant_hero",
+    "group": "personality",
+    "question": "Is your character a reluctant hero who didn't want the role?"
+  },
+  {
+    "trait": "appearance_white_roses",
+    "group": "appearance",
+    "question": "Is your character associated with white roses?"
+  },
+  {
+    "trait": "abilities_political_power",
+    "group": "abilities",
+    "question": "Does your character wield significant political power?"
+  },
+  {
+    "trait": "abilities_poison",
+    "group": "abilities",
+    "question": "Does your character use poison as a weapon?"
+  },
+  {
+    "trait": "role_president",
+    "group": "role",
+    "question": "Is your character a president?"
+  },
+  {
+    "trait": "archetype_tyrant",
+    "group": "archetype",
+    "question": "Is your character an oppressive ruler?"
+  },
+  {
+    "trait": "appearance_distinctive_helmet",
+    "group": "appearance",
+    "question": "Does your character wear an iconic helmet?"
+  },
+  {
+    "trait": "appearance_has_roses",
+    "group": "appearance",
+    "question": "Does your character have roses?"
+  },
+  {
+    "trait": "appearance_distinctive_hat",
+    "group": "appearance",
+    "question": "Does your character wear a distinctive hat?"
+  },
+  {
+    "trait": "appearance_distinctive_vest",
+    "group": "appearance",
+    "question": "Does your character wear a distinctive vest?"
+  },
+  {
+    "trait": "franchise_book",
+    "group": "franchise",
+    "question": "Did your character originate from a book?"
+  },
+  {
+    "trait": "abilities_shooting",
+    "group": "abilities",
+    "question": "Is your character an expert marksman?"
+  },
+  {
+    "trait": "appearance_lightning_scar",
+    "group": "appearance",
+    "question": "Does your character have a lightning bolt-shaped scar?"
+  },
+  {
+    "trait": "abilities_parseltongue",
+    "group": "abilities",
+    "question": "Can your character speak Parseltongue (talk to snakes)?"
+  },
+  {
+    "trait": "abilities_patronus",
+    "group": "abilities",
+    "question": "Can your character cast a Patronus charm?"
+  },
+  {
+    "trait": "role_boy_who_lived",
+    "group": "role",
+    "question": "Is your character known as 'The Boy Who Lived'?"
+  },
+  {
+    "trait": "archetype_seeker",
+    "group": "archetype",
+    "question": "Is your character a Seeker in Quidditch?"
+  },
+  {
+    "trait": "appearance_hair_buns",
+    "group": "appearance",
+    "question": "Does your character wear their hair in buns?"
+  },
+  {
+    "trait": "role_princess",
+    "group": "role",
+    "question": "Is your character a princess?"
+  },
+  {
+    "trait": "role_sister",
+    "group": "role",
+    "question": "Does your character have an important sibling relationship?"
+  },
+  {
+    "trait": "appearance_breathing_apparatus",
+    "group": "appearance",
+    "question": "Does your character wear a breathing apparatus?"
+  },
+  {
+    "trait": "abilities_force_choke",
+    "group": "abilities",
+    "question": "Can your character perform a Force choke?"
+  },
+  {
+    "trait": "abilities_dark_side",
+    "group": "abilities",
+    "question": "Does your character use the dark side of the Force?"
+  },
+  {
+    "trait": "role_father",
+    "group": "role",
+    "question": "Is your character someone's father?"
+  },
+  {
+    "trait": "archetype_dark_lord",
+    "group": "archetype",
+    "question": "Is your character a dark lord?"
+  },
+  {
+    "trait": "appearance_freckles",
+    "group": "appearance",
+    "question": "Does your character have freckles?"
+  },
+  {
+    "trait": "abilities_chess",
+    "group": "abilities",
+    "question": "Is your character skilled at chess?"
+  },
+  {
+    "trait": "archetype_keeper",
+    "group": "archetype",
+    "question": "Is your character a Keeper in Quidditch?"
   }
 ]

@@ -20,7 +20,7 @@ class RLQuestionAgent:
     """
     
     def __init__(self, q_table_file: str = "data/q_table.json", 
-                 alpha: float = 0.1, gamma: float = 0.95, epsilon: float = 0.2):
+                 alpha: float = 0.15, gamma: float = 0.97, epsilon: float = 0.25):
         """
         Initialize RL agent.
         
@@ -37,7 +37,7 @@ class RLQuestionAgent:
         self.alpha = alpha  # Learning rate
         self.gamma = gamma  # Discount factor
         self.epsilon = epsilon  # Exploration rate
-        self.epsilon_decay = 0.995  # Decay epsilon over time
+        self.epsilon_decay = 0.992  # Decay epsilon over time
         self.epsilon_min = 0.05  # Minimum exploration
         
         # Q-table: Q[state][action] = expected value
