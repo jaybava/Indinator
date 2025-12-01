@@ -9,6 +9,7 @@ pathlib
 pydantic
 pytest
 python-dotenv
+PyQt5
 scikit-learn
 streamlit
 typing
