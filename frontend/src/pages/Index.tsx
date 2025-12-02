@@ -1,107 +1,125 @@
 import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
 import LandingScreen from "@/components/LandingScreen";
 import GameScreen from "@/components/GameScreen";
 import ResultScreen from "@/components/ResultScreen";
 import AboutModal from "@/components/AboutModal";
-import { questions, characters, getAnswerWeight, Character } from "@/data/questions";
+import { startGame, submitAnswer, submitGuessFeedback, getNextQuestion, type GameState } from "@/lib/api";
+import { useToast } from "@/hooks/use-toast";
 
-type GameState = "landing" | "playing" | "result";
+type GameStateType = "landing" | "playing" | "result";
 
 const Index = () => {
-  const [gameState, setGameState] = useState<GameState>("landing");
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [scores, setScores] = useState<Record<number, number>>({});
-  const [guessedCharacter, setGuessedCharacter] = useState<Character | null>(null);
+  const { toast } = useToast();
+  const [gameState, setGameState] = useState<GameStateType>("landing");
+  const [currentState, setCurrentState] = useState<GameState | null>(null);
+  const [guessedCharacter, setGuessedCharacter] = useState<{ name: string; quote?: string } | null>(null);
   const [showAbout, setShowAbout] = useState(false);
-  const [askedQuestions, setAskedQuestions] = useState<Set<number>>(new Set());
+  const [isLoading, setIsLoading] = useState(false);
 
-  const startGame = () => {
-    setGameState("playing");
-    setCurrentQuestionIndex(0);
-    setScores({});
-    setGuessedCharacter(null);
-    setAskedQuestions(new Set());
-  };
-
-  const quitGame = () => {
-    setGameState("landing");
-    setCurrentQuestionIndex(0);
-    setScores({});
-    setGuessedCharacter(null);
-    setAskedQuestions(new Set());
-  };
-
-  const calculateBestMatch = (): Character => {
-    const characterScores = characters.map((char) => {
-      let totalScore = 0;
-      Object.entries(scores).forEach(([questionId, userAnswer]) => {
-        const charAnswer = char.attributes[questionId] || 0;
-        const difference = Math.abs(charAnswer - userAnswer);
-        totalScore += 10 - difference * 2; // Higher score for closer matches
+  const handleStartGame = async () => {
+    try {
+      setIsLoading(true);
+      const state = await startGame();
+      setCurrentState(state);
+      setGameState("playing");
+      setGuessedCharacter(null);
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: error instanceof Error ? error.message : "Failed to start game",
+        variant: "destructive",
       });
-      return { character: char, score: totalScore };
-    });
-
-    characterScores.sort((a, b) => b.score - a.score);
-    return characterScores[0].character;
+    } finally {
+      setIsLoading(false);
+    }
   };
 
-  const handleAnswer = (answer: string) => {
-    const weight = getAnswerWeight(answer);
-    const questionId = questions[currentQuestionIndex].id;
+  const handleQuitGame = () => {
+    setGameState("landing");
+    setCurrentState(null);
+    setGuessedCharacter(null);
+  };
 
-    setScores((prev) => ({
-      ...prev,
-      [questionId]: weight,
-    }));
+  const handleAnswer = async (answer: string) => {
+    if (!currentState?.question || isLoading) return;
 
-    // Mark question as asked
-    setAskedQuestions((prev) => new Set([...prev, questionId]));
+    try {
+      setIsLoading(true);
+      const newState = await submitAnswer(currentState.question.id, answer);
+      setCurrentState(newState);
 
-    // Find next unasked question
-    const nextQuestionIndex = questions.findIndex(
-      (q, idx) => idx > currentQuestionIndex && !askedQuestions.has(q.id)
-    );
+      // If backend provided a guess, we'll show it in GameScreen
+      // The GameScreen component will handle showing the guess UI
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: error instanceof Error ? error.message : "Failed to submit answer",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-    // Move to next question or show result
-    if (nextQuestionIndex !== -1 && currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(nextQuestionIndex);
-    } else {
-      // Game over - calculate result
-      const bestMatch = calculateBestMatch();
-      setGuessedCharacter(bestMatch);
-      setGameState("result");
+  const handleGuessFeedback = async (correct: boolean) => {
+    if (!currentState?.guess || isLoading) return;
+
+    try {
+      setIsLoading(true);
+      
+      if (correct) {
+        // User confirmed the guess is correct
+        setGuessedCharacter({
+          name: currentState.guess.name,
+          // You can add quote lookup here if needed
+        });
+        setGameState("result");
+      } else {
+        // Wrong guess - get next question
+        await submitGuessFeedback(false);
+        const newState = await getNextQuestion();
+        setCurrentState(newState);
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: error instanceof Error ? error.message : "Failed to submit feedback",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return (
     <div className="min-h-screen">
-      <AnimatePresence mode="wait">
-        {gameState === "landing" && (
-          <LandingScreen key="landing" onStart={startGame} onOpenAbout={() => setShowAbout(true)} />
-        )}
+      {gameState === "landing" && (
+        <LandingScreen 
+          onStart={handleStartGame} 
+          onOpenAbout={() => setShowAbout(true)} 
+        />
+      )}
 
-        {gameState === "playing" && (
-          <GameScreen
-            key="playing"
-            question={questions[currentQuestionIndex].text}
-            questionNumber={currentQuestionIndex + 1}
-            totalQuestions={questions.length}
-            onAnswer={handleAnswer}
-            onQuit={quitGame}
-          />
-        )}
+      {gameState === "playing" && currentState && (
+        <GameScreen
+          question={currentState.question?.text || null}
+          questionNumber={currentState.questionNumber}
+          entropy={currentState.entropy}
+          guess={currentState.guess}
+          onAnswer={handleAnswer}
+          onGuessFeedback={handleGuessFeedback}
+          onQuit={handleQuitGame}
+          isLoading={isLoading}
+        />
+      )}
 
-        {gameState === "result" && guessedCharacter && (
-          <ResultScreen
-            key="result"
-            characterName={guessedCharacter.name}
-            characterQuote={guessedCharacter.quote}
-            onPlayAgain={startGame}
-          />
-        )}
-      </AnimatePresence>
+      {gameState === "result" && guessedCharacter && (
+        <ResultScreen
+          characterName={guessedCharacter.name}
+          characterQuote={guessedCharacter.quote || `I knew it was ${guessedCharacter.name}!`}
+          onPlayAgain={handleStartGame}
+        />
+      )}
 
       <AboutModal open={showAbout} onOpenChange={setShowAbout} />
     </div>

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Info } from "lucide-react";
 
@@ -9,40 +8,34 @@ interface LandingScreenProps {
 
 const LandingScreen = ({ onStart, onOpenAbout }: LandingScreenProps) => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="min-h-screen flex flex-col items-center justify-center text-foreground relative overflow-hidden"
-    >
-
+    <div className="min-h-screen flex flex-col items-center justify-center px-4">
       {/* About button */}
       <Button
         variant="ghost"
         size="icon"
         onClick={onOpenAbout}
-        className="absolute top-6 right-6 text-secondary hover:text-secondary/80 hover:bg-secondary/10 rounded-full z-20"
+        className="absolute top-4 right-4"
       >
-        <Info className="w-6 h-6" />
+        <Info className="w-5 h-5" />
       </Button>
 
       {/* Content */}
-      <div className="z-10 text-center space-y-8 px-4 max-w-2xl">
-        <motion.div
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3, type: "spring" }}
+      <div className="text-center space-y-6 max-w-md">
+        <h1 className="text-4xl font-semibold text-foreground mb-2">
+          Ind-inator
+        </h1>
+        <p className="text-muted-foreground mb-8">
+          Think of a character and I'll try to guess who it is.
+        </p>
+        <Button
+          onClick={onStart}
+          size="lg"
+          className="px-8 py-6 text-base"
         >
-          <Button
-            onClick={onStart}
-            size="lg"
-            className="text-xl px-12 py-8 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 font-bold playful bubble-shadow border-4 border-secondary"
-          >
-            🎮 Start Game
-          </Button>
-        </motion.div>
+          Start Game
+        </Button>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

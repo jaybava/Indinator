@@ -50,14 +50,14 @@ class AkinatorAI:
                 # Use adaptive priors if we have enough game history
                 adaptive_priors = self.learner.get_adaptive_priors(list(self.traits.keys()))
                 if self.learner.get_stats()['total_games'] >= 3:
-                    print("📚 Learning from", self.learner.get_stats()['total_games'], "past games...")
+                    print("[LEARN] Learning from", self.learner.get_stats()['total_games'], "past games...")
                     self.priors = adaptive_priors
                 
                 # RL agent for question selection
                 self.rl_agent = RLQuestionAgent()
                 rl_stats = self.rl_agent.get_stats()
                 if rl_stats['learning_active']:
-                    print(f"🤖 RL Agent trained on {rl_stats['episode_count']} episodes "
+                    print(f"[RL] RL Agent trained on {rl_stats['episode_count']} episodes "
                           f"({rl_stats['unique_states']} states learned)")
                     
             except Exception as e:
@@ -164,7 +164,7 @@ class AkinatorAI:
             for i in range(len(self.characters))
         }
         
-        print(f"✓ Created {n_components}-dimensional embeddings for {len(self.characters)} characters")
+        print(f"[OK] Created {n_components}-dimensional embeddings for {len(self.characters)} characters")
         return embeddings
     
     def _index_questions_by_trait(self) -> Dict[str, List[int]]:
@@ -257,9 +257,13 @@ class AkinatorAI:
         if len(top_chars) > 1:
             for trait in self.trait_to_questions.keys():
                 # Check if this trait varies among top candidates
-                values = [self._flatten_traits(self.traits[char]).get(trait, 0) for char in top_chars]
-                if len(set(values)) > 1:  # Trait has different values
-                    discriminating_traits.add(trait)
+                try:
+                    values = [self._flatten_traits(self.traits.get(char, {})).get(trait, 0) for char in top_chars]
+                    if len(set(values)) > 1:  # Trait has different values
+                        discriminating_traits.add(trait)
+                except (KeyError, AttributeError) as e:
+                    # Skip traits that cause errors
+                    continue
         
         # Strategic question prioritization based on game state
         asked_traits = [self.questions[i].get('trait', '') for i in self.asked_questions]
@@ -308,6 +312,8 @@ class AkinatorAI:
                     # Check which franchises the top candidates belong to
                     top_char_franchises = set()
                     for char, _ in top_candidates[:10]:  # Check top 10 instead of 5
+                        if char not in self.traits:
+                            continue
                         char_traits = self.traits[char]
                         flat_traits = self._flatten_traits(char_traits)
                         for franchise in major_anime_franchises:

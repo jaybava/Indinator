@@ -1,106 +1,133 @@
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { X } from "lucide-react";
-import IndAvatar from "./IndAvatar";
 
 interface GameScreenProps {
-  question: string;
+  question: string | null;
   questionNumber: number;
-  totalQuestions: number;
+  entropy?: number;
+  guess: { name: string; probability: number } | null;
   onAnswer: (answer: string) => void;
+  onGuessFeedback: (correct: boolean) => void;
   onQuit: () => void;
+  isLoading?: boolean;
 }
 
 const answers = [
-  { value: "yes", label: "✅ Yes", color: "bg-primary hover:bg-primary/90 text-primary-foreground" },
-  { value: "probably-yes", label: "👍 Probably", color: "bg-primary/80 hover:bg-primary/70 text-primary-foreground" },
-  { value: "maybe", label: "🤷 Maybe", color: "bg-accent hover:bg-accent/90 text-accent-foreground" },
-  { value: "probably-no", label: "👎 Probably Not", color: "bg-destructive/80 hover:bg-destructive/70 text-destructive-foreground" },
-  { value: "no", label: "❌ No", color: "bg-destructive hover:bg-destructive/90 text-destructive-foreground" },
+  { value: "yes", label: "Yes", color: "bg-primary hover:bg-primary/90 text-primary-foreground" },
+  { value: "probably-yes", label: "Probably", color: "bg-primary/80 hover:bg-primary/70 text-primary-foreground" },
+  { value: "maybe", label: "Maybe", color: "bg-muted hover:bg-muted/80 text-foreground" },
+  { value: "probably-no", label: "Probably Not", color: "bg-muted hover:bg-muted/80 text-foreground" },
+  { value: "no", label: "No", color: "bg-secondary hover:bg-secondary/80 text-secondary-foreground" },
 ];
 
-const GameScreen = ({ question, questionNumber, totalQuestions, onAnswer, onQuit }: GameScreenProps) => {
-  const progress = (questionNumber / totalQuestions) * 100;
+const GameScreen = ({ 
+  question, 
+  questionNumber, 
+  entropy = 0,
+  guess,
+  onAnswer, 
+  onGuessFeedback,
+  onQuit,
+  isLoading = false
+}: GameScreenProps) => {
+  // Show guess screen if backend provided a guess
+  if (guess) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center p-6 relative">
+        {/* Quit button */}
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={onQuit}
+          className="absolute top-4 right-4"
+        >
+          <X className="w-5 h-5" />
+        </Button>
+
+        {/* Guess */}
+        <div className="max-w-2xl text-center mb-8 space-y-4">
+          <h2 className="text-2xl font-semibold text-foreground">
+            Is it {guess.name}?
+          </h2>
+          <p className="text-sm text-muted-foreground">
+            Confidence: {Math.round(guess.probability * 100)}%
+          </p>
+        </div>
+
+        {/* Feedback buttons */}
+        <div className="flex gap-3">
+          <Button
+            onClick={() => onGuessFeedback(true)}
+            size="lg"
+            disabled={isLoading}
+          >
+            Yes, that's it
+          </Button>
+          <Button
+            onClick={() => onGuessFeedback(false)}
+            size="lg"
+            variant="outline"
+            disabled={isLoading}
+          >
+            No, keep going
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // Show question screen
+  if (!question) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-muted-foreground">Loading...</p>
+      </div>
+    );
+  }
 
   return (
-    <motion.div
-      key={questionNumber}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="min-h-screen flex flex-col items-center justify-center p-6 relative"
-    >
+    <div className="min-h-screen flex flex-col items-center justify-center p-6 relative max-w-3xl mx-auto">
       {/* Quit button */}
       <Button
         variant="ghost"
         size="icon"
         onClick={onQuit}
-        className="absolute top-6 right-6 text-destructive hover:text-destructive/80 hover:bg-destructive/10 rounded-full"
+        className="absolute top-4 right-4"
       >
-        <X className="w-6 h-6" />
+        <X className="w-5 h-5" />
       </Button>
 
       {/* Progress */}
-      <div className="absolute top-8 left-1/2 -translate-x-1/2 w-full max-w-md px-6">
-        <div className="text-center mb-3">
-          <span className="text-lg font-semibold text-primary playful">
-            Question {questionNumber}
-          </span>
+      <div className="w-full mb-8">
+        <div className="flex justify-between items-center mb-2 text-sm text-muted-foreground">
+          <span>Question {questionNumber}</span>
+          {entropy > 0 && (
+            <span>Uncertainty: {entropy.toFixed(2)}</span>
+          )}
         </div>
-        <Progress value={progress} className="h-3 bg-muted rounded-full" />
+        <Progress value={Math.max(0, Math.min(100, (1 - entropy / 10) * 100))} className="h-2" />
       </div>
 
-      {/* Avatar */}
-      <motion.div
-        initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: "spring", stiffness: 200 }}
-        className="mb-8 mt-16"
-      >
-        <IndAvatar mood="thinking" />
-      </motion.div>
-
       {/* Question */}
-      <motion.div
-        initial={{ y: 30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.2, type: "spring" }}
-        className="max-w-2xl text-center mb-12 bg-card/95 backdrop-blur-sm rounded-3xl p-8 bubble-shadow border-4 border-secondary"
-      >
-        <h2 className="text-3xl md:text-4xl font-bold text-card-foreground playful">{question}</h2>
-      </motion.div>
+      <div className="text-center mb-12">
+        <h2 className="text-2xl font-medium text-foreground mb-4">{question}</h2>
+      </div>
 
       {/* Answer buttons */}
-      <motion.div
-        initial={{ y: 30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.3, type: "spring" }}
-        className="grid grid-cols-1 md:grid-cols-5 gap-4 w-full max-w-5xl px-4"
-      >
-        {answers.map((answer, index) => (
-          <motion.div
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-3 w-full">
+        {answers.map((answer) => (
+          <Button
             key={answer.value}
-            initial={{ scale: 0, rotate: -10 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ 
-              delay: 0.4 + index * 0.1,
-              type: "spring",
-              stiffness: 200
-            }}
-            whileHover={{ scale: 1.1, rotate: 2 }}
-            whileTap={{ scale: 0.9 }}
+            onClick={() => onAnswer(answer.value)}
+            className={`h-16 ${answer.color}`}
+            disabled={isLoading}
           >
-            <Button
-              onClick={() => onAnswer(answer.value)}
-              className={`w-full h-24 text-lg font-bold ${answer.color} rounded-2xl bubble-shadow border-4 border-secondary playful`}
-            >
-              {answer.label}
-            </Button>
-          </motion.div>
+            {answer.label}
+          </Button>
         ))}
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   );
 };
 
