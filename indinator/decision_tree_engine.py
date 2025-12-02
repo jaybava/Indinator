@@ -46,7 +46,7 @@ class DecisionTreeAI:
             min_samples_split: Minimum samples required to split a node (default: 2)
         """
         # Initialize feature extractor
-        print("🔧 Initializing feature extractor...")
+        print("[INIT] Initializing feature extractor...")
         self.feature_extractor = FeatureExtractor(traits_file, questions_file)
         
         # Load questions for compatibility with existing code
@@ -57,7 +57,7 @@ class DecisionTreeAI:
         self.num_characters = len(self.characters)
         
         # Build training data
-        print("🔧 Building training data...")
+        print("[INIT] Building training data...")
         X, y, character_list = self.feature_extractor.build_feature_matrix()
         
         # Store training data
@@ -66,7 +66,7 @@ class DecisionTreeAI:
         self.character_list = character_list
         
         # Train Decision Tree
-        print("🌳 Training Decision Tree...")
+        print("[INIT] Training Decision Tree...")
         self.tree = DecisionTreeClassifier(
             max_depth=max_depth,
             min_samples_split=min_samples_split,
@@ -76,7 +76,7 @@ class DecisionTreeAI:
         
         self.tree.fit(X, y)
         
-        print(f"✓ Decision Tree trained:")
+        print(f"[OK] Decision Tree trained:")
         print(f"   Depth: {self.tree.get_depth()}")
         print(f"   Leaves: {self.tree.get_n_leaves()}")
         print(f"   Features used: {np.sum(self.tree.feature_importances_ > 0)}")

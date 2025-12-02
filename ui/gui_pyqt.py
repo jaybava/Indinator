@@ -17,7 +17,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from indinator.ai_engine import AkinatorAI
+from indinator import AkinatorAI
 
 
 class IndinatorGUI(QWidget):
@@ -54,7 +54,6 @@ class IndinatorGUI(QWidget):
             traits_file=str(PROJECT_ROOT / "data" / "traits_flat.json"),
             questions_file=str(PROJECT_ROOT / "data" / "questions.json"),
             characters_file=str(PROJECT_ROOT / "data" / "characters.json"),
-            enable_learning=True,
         )
 
         # --- Game state ---

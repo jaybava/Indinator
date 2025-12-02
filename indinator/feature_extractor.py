@@ -64,7 +64,7 @@ class FeatureExtractor:
                     self.trait_to_questions[trait] = []
                 self.trait_to_questions[trait].append(q_idx)
         
-        print(f"✓ Feature extractor initialized:")
+        print(f"[OK] Feature extractor initialized:")
         print(f"   Characters: {len(self.traits)}")
         print(f"   Features (traits): {len(self.feature_names)}")
         print(f"   Questions: {len(self.questions)}")
@@ -107,7 +107,7 @@ class FeatureExtractor:
         # Create labels array (character names)
         y = np.array(character_list)
         
-        print(f"✓ Feature matrix built:")
+        print(f"[OK] Feature matrix built:")
         print(f"   Shape: {X.shape} ({n_characters} characters × {n_features} features)")
         print(f"   Sparsity: {(1 - X.sum() / (n_characters * n_features)) * 100:.1f}% zeros")
         

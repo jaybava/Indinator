@@ -28,7 +28,6 @@ try:
         traits_file=str(data_dir / "traits_flat.json"),
         questions_file=str(data_dir / "questions.json"),
         characters_file=str(data_dir / "characters.json"),
-        enable_learning=False,  # keep web version simple & fast
     )
     print("[OK] AI engine ready!")
 except Exception as e:
@@ -144,32 +143,32 @@ def api_answer():
         q_idx = int(data["questionId"])
         answer_code = str(data["answer"])
 
-        # Map UI answers to (bool, likelihoods)
+        # Map UI answers to DecisionTreeAI answer format
+        # DecisionTreeAI expects: "yes", "no", "probably", "probably_not", "dont_know"
         if answer_code == "yes":
-            ans_bool = True
+            user_answer = "yes"
             lk_correct, lk_incorrect = 0.95, 0.05
         elif answer_code == "probably_yes":
-            ans_bool = True
+            user_answer = "probably"
             lk_correct, lk_incorrect = 0.75, 0.25
         elif answer_code == "no":
-            ans_bool = False
+            user_answer = "no"
             lk_correct, lk_incorrect = 0.95, 0.05
         elif answer_code == "probably_no":
-            ans_bool = False
+            user_answer = "probably_not"
             lk_correct, lk_incorrect = 0.75, 0.25
         elif answer_code == "unknown":
-            ans_bool = None  # skip: don't update probabilities
+            user_answer = "dont_know"
         else:
             return jsonify({"error": f"Invalid answer '{answer_code}'"}), 400
 
-        # Update probabilities only if the user gave a directional answer
-        if ans_bool is not None:
-            ai.update_probabilities(
-                q_idx,
-                ans_bool,
-                likelihood_correct=lk_correct,
-                likelihood_incorrect=lk_incorrect,
-            )
+        # Update probabilities (DecisionTreeAI handles "dont_know" by not updating)
+        ai.update_probabilities(
+            q_idx,
+            user_answer,
+            likelihood_correct=lk_correct,
+            likelihood_incorrect=lk_incorrect,
+        )
 
         state = build_state(allow_guess=True)
         return jsonify(state)
