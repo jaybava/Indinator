@@ -1,0 +1,101 @@
+target,guess,correct,questions,final_prob,mode
+Aang,Aang,True,7,0.9513176144244105,ideal
+Albus Dumbledore,Albus Dumbledore,True,25,0.6750914308803265,ideal
+Anna,Anna,True,7,0.9067574901546039,ideal
+Aragorn,Aragorn,True,23,0.9725371363932727,ideal
+Armin Arlert,Armin Arlert,True,12,0.9734455765036302,ideal
+Arya Stark,Arya Stark,True,11,0.9747561632359981,ideal
+Ash Ketchum,Ash Ketchum,True,16,0.9890035668209759,ideal
+Atreus,Atreus,True,9,0.9760772095084095,ideal
+Bart Simpson,Bart Simpson,True,5,0.9448617374534171,ideal
+Batman,Batman,True,8,0.9039272535582499,ideal
+Bilbo Baggins,Bilbo Baggins,True,12,0.9470281867913248,ideal
+Black Widow,Black Widow,True,7,0.9892738397072889,ideal
+Bowser,Bowser,True,8,0.9372974398601817,ideal
+Captain America,Captain America,True,10,0.9371566230404142,ideal
+Ciri,Ciri,True,5,0.8711879136305902,ideal
+Cortana,Cortana,True,7,0.8709783059094007,ideal
+Daenerys Targaryen,Daenerys Targaryen,True,13,0.9797687426698343,ideal
+Darth Vader,Darth Vader,True,7,0.8649432534678435,ideal
+Donkey,Donkey,True,8,0.9241182226886586,ideal
+Dr. Eggman,Dr. Eggman,True,10,0.9612961760887525,ideal
+Eleven,Eleven,True,6,0.9560914413158629,ideal
+Ellie Williams,Ellie Williams,True,9,0.9760702837113155,ideal
+Elsa,Elsa,True,7,0.9804321331307083,ideal
+Eren Yeager,Eren Yeager,True,11,0.928741448118586,ideal
+Fiona,Fiona,True,12,0.8754013568885605,ideal
+Frodo Baggins,Frodo Baggins,True,12,0.8965454688969817,ideal
+Gandalf,Gandalf,True,24,0.9254237680882093,ideal
+Ganondorf,Ganondorf,True,7,0.9428218183701258,ideal
+Geralt of Rivia,Geralt of Rivia,True,6,0.9108643079804857,ideal
+Goku,Goku,True,6,0.8692007043192914,ideal
+Han Solo,Han Solo,True,16,0.957615601548831,ideal
+Harley Quinn,Harley Quinn,True,11,0.9829612309548952,ideal
+Harry Potter,Harry Potter,True,10,0.8899276154056269,ideal
+Hermione Granger,Hermione Granger,True,15,0.9552150884001559,ideal
+Homer Simpson,Homer Simpson,True,6,0.9888684857498408,ideal
+Hulk,Hulk,True,11,0.8754013568885606,ideal
+Indiana Jones,Indiana Jones,True,20,0.9673395319764035,ideal
+Iron Man,Iron Man,True,8,0.981495428459534,ideal
+James Bond,James Bond,True,22,0.9699313710896798,ideal
+Jesse Pinkman,Jesse Pinkman,True,4,0.9444919553558487,ideal
+Joel Miller,Joel Miller,True,8,0.9307712085934263,ideal
+John Watson,John Watson,True,25,0.9801736532255767,ideal
+Jon Snow,Jon Snow,True,15,0.9848331418898494,ideal
+Kakashi Hatake,Kakashi Hatake,True,8,0.9896102024808261,ideal
+Katara,Katara,True,9,0.8999944752144308,ideal
+Katniss Everdeen,Katniss Everdeen,True,13,0.9408164257852425,ideal
+Kratos,Kratos,True,6,0.9216478076379067,ideal
+L Lawliet,L Lawliet,True,7,0.8770981680149682,ideal
+Lara Croft,Lara Croft,True,12,0.9872503863519287,ideal
+Legolas,Legolas,True,12,0.8986598309309539,ideal
+Levi Ackerman,Levi Ackerman,True,13,0.9813623904334468,ideal
+Light Yagami,Light Yagami,True,8,0.9638691961901441,ideal
+Link,Link,True,6,0.8552528594215323,ideal
+Lisa Simpson,Lisa Simpson,True,5,0.861034396183781,ideal
+Loki,Loki,True,11,0.9899857905136286,ideal
+Luigi,Luigi,True,5,0.8533376021482846,ideal
+Luke Skywalker,Luke Skywalker,True,14,0.9456086711445074,ideal
+Mario,Mario,True,6,0.8657706974210435,ideal
+Master Chief,Master Chief,True,9,0.9597803756793004,ideal
+Michonne,Michonne,True,11,0.9400320721867172,ideal
+Mikasa Ackerman,Mikasa Ackerman,True,12,0.9788415028016043,ideal
+Mike Wheeler,Mike Wheeler,True,16,0.9670743109871028,ideal
+Monkey D. Luffy,Monkey D. Luffy,True,14,0.9838962960725988,ideal
+Nami,Nami,True,8,0.9662998828466774,ideal
+Naruto Uzumaki,Naruto Uzumaki,True,6,0.8983370544865352,ideal
+Nathan Drake,Nathan Drake,True,11,0.9873850256845423,ideal
+Olaf,Olaf,True,6,0.9887334415732213,ideal
+Patrick Star,Patrick Star,True,6,0.90392725355825,ideal
+Peeta Mellark,Peeta Mellark,True,14,0.9528265801819995,ideal
+Piccolo,Piccolo,True,7,0.9019063118533288,ideal
+Pikachu,Pikachu,True,15,0.9864433208186992,ideal
+President Snow,President Snow,True,25,0.16115314129975095,ideal
+Princess Leia,Princess Leia,True,13,0.9030312335657439,ideal
+Princess Peach,Princess Peach,True,6,0.8998826128987709,ideal
+Rick Grimes,Rick Grimes,True,11,0.9262462863722298,ideal
+Ron Weasley,President Snow,False,25,0.16115314129975095,ideal
+Roronoa Zoro,Roronoa Zoro,True,10,0.9687565044155689,ideal
+Sakura Haruno,Sakura Haruno,True,9,0.9614238288454444,ideal
+Sanji,Sanji,True,16,0.8590931863727455,ideal
+Sasuke Uchiha,Sasuke Uchiha,True,7,0.9399553313299976,ideal
+Saul Goodman,Saul Goodman,True,4,0.9349781897491821,ideal
+Sherlock Holmes,Sherlock Holmes,True,21,0.9673395319764035,ideal
+Shrek,Shrek,True,10,0.9872787284230806,ideal
+Sokka,Sokka,True,10,0.9422793267006017,ideal
+Sonic the Hedgehog,Sonic the Hedgehog,True,9,0.9610409722427068,ideal
+Spider-Man,Spider-Man,True,10,0.8570592413321407,ideal
+SpongeBob SquarePants,SpongeBob SquarePants,True,7,0.9397109934959115,ideal
+Squidward Tentacles,Squidward Tentacles,True,5,0.8669110212335693,ideal
+Superman,Superman,True,10,0.9446086973771752,ideal
+Thanos,Thanos,True,17,0.9600282103633926,ideal
+The Joker,The Joker,True,18,0.9624530064959094,ideal
+Thor,Thor,True,19,0.9648900825267575,ideal
+Tyrion Lannister,Tyrion Lannister,True,12,0.9273139978368532,ideal
+Vecna,Vecna,True,8,0.9563440228957217,ideal
+Vegeta,Vegeta,True,9,0.9155017532858396,ideal
+Walter White,Walter White,True,4,0.8552369077306734,ideal
+Wonder Woman,Wonder Woman,True,9,0.902575006233205,ideal
+Yennefer,Yennefer,True,10,0.9289860575122927,ideal
+Zelda,Zelda,True,8,0.8657761463732563,ideal
+Zuko,Zuko,True,14,0.9797687426698343,ideal

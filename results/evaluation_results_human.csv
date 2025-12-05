@@ -1,0 +1,101 @@
+target,guess,correct,questions,final_prob,mode
+Aang,Aang,True,9,0.9513176144244105,human
+Albus Dumbledore,Albus Dumbledore,True,25,0.09759255570416323,human
+Anna,Anna,True,7,0.9067574901546039,human
+Aragorn,Albus Dumbledore,False,25,0.08893700889499753,human
+Armin Arlert,Armin Arlert,True,13,0.9734455765036302,human
+Arya Stark,Arya Stark,True,11,0.9747561632359981,human
+Ash Ketchum,Ash Ketchum,True,25,0.984220116241447,human
+Atreus,Kratos,False,9,0.9216478076379067,human
+Bart Simpson,Bart Simpson,True,5,0.9448617374534171,human
+Batman,Homer Simpson,False,25,0.606240056567085,human
+Bilbo Baggins,Bilbo Baggins,True,13,0.9470281867913248,human
+Black Widow,Black Widow,True,10,0.9892738397072889,human
+Bowser,Bowser,True,9,0.9372974398601817,human
+Captain America,Captain America,True,22,0.8519160118712984,human
+Ciri,Ciri,True,6,0.8711879136305902,human
+Cortana,Cortana,True,17,0.8709783059094007,human
+Daenerys Targaryen,Daenerys Targaryen,True,17,0.9800339910961378,human
+Darth Vader,Darth Vader,True,25,0.26731306484630435,human
+Donkey,Donkey,True,8,0.9241182226886586,human
+Dr. Eggman,Dr. Eggman,True,15,0.9022375763282148,human
+Eleven,Aang,False,25,0.025793083738210935,human
+Ellie Williams,John Watson,False,25,0.2401778836052944,human
+Elsa,Elsa,True,9,0.9804321331307083,human
+Eren Yeager,Eren Yeager,True,14,0.928741448118586,human
+Fiona,Hulk,False,11,0.8754013568885606,human
+Frodo Baggins,Aang,False,25,0.025793083738210935,human
+Gandalf,Ash Ketchum,False,22,0.9838962960725988,human
+Ganondorf,Ganondorf,True,9,0.9428218183701258,human
+Geralt of Rivia,Geralt of Rivia,True,8,0.9108643079804857,human
+Goku,Aang,False,7,0.9513176144244105,human
+Han Solo,Han Solo,True,19,0.9552150884001559,human
+Harley Quinn,Harley Quinn,True,19,0.8933315967699922,human
+Harry Potter,Harry Potter,True,23,0.8519160118712983,human
+Hermione Granger,Albus Dumbledore,False,25,0.11289028797544014,human
+Homer Simpson,Homer Simpson,True,6,0.9888684857498408,human
+Hulk,Hulk,True,12,0.8754013568885606,human
+Indiana Jones,Luigi,False,25,0.07947672128108273,human
+Iron Man,Iron Man,True,8,0.981495428459534,human
+James Bond,James Bond,True,24,0.9809634926608958,human
+Jesse Pinkman,Jesse Pinkman,True,4,0.9444919553558487,human
+Joel Miller,Rick Grimes,False,25,0.4664817267423131,human
+John Watson,Albus Dumbledore,False,25,0.10811449828189527,human
+Jon Snow,Jon Snow,True,17,0.9801666691737241,human
+Kakashi Hatake,Kakashi Hatake,True,9,0.9896102024808261,human
+Katara,Katara,True,15,0.9619415057279074,human
+Katniss Everdeen,Sonic the Hedgehog,False,25,0.05487112206204703,human
+Kratos,Kratos,True,7,0.9216478076379067,human
+L Lawliet,L Lawliet,True,8,0.8770981680149682,human
+Lara Croft,Lara Croft,True,14,0.9872503863519287,human
+Legolas,Bart Simpson,False,25,0.023916788127732902,human
+Levi Ackerman,Levi Ackerman,True,15,0.9813623904334468,human
+Light Yagami,Lisa Simpson,False,25,0.1193201586528426,human
+Link,Link,True,7,0.8552528594215323,human
+Lisa Simpson,Lisa Simpson,True,14,0.8933315967699922,human
+Loki,Loki,True,11,0.8732895530389332,human
+Luigi,Luigi,True,6,0.8533376021482846,human
+Luke Skywalker,Anna,False,8,0.9067574901546039,human
+Mario,Mario,True,11,0.9445298601121739,human
+Master Chief,Master Chief,True,10,0.9597803756793004,human
+Michonne,Aang,False,8,0.9513176144244105,human
+Mikasa Ackerman,Mikasa Ackerman,True,12,0.9788415028016043,human
+Mike Wheeler,Aang,False,25,0.019555796316359706,human
+Monkey D. Luffy,Monkey D. Luffy,True,16,0.9812293884680833,human
+Nami,Nami,True,10,0.9662998828466774,human
+Naruto Uzumaki,Naruto Uzumaki,True,6,0.8983370544865352,human
+Nathan Drake,Nathan Drake,True,12,0.9873850256845423,human
+Olaf,Bowser,False,25,0.05611551992145954,human
+Patrick Star,Patrick Star,True,6,0.90392725355825,human
+Peeta Mellark,Anna,False,7,0.9067574901546039,human
+Piccolo,Piccolo,True,8,0.9019063118533288,human
+Pikachu,Pikachu,True,17,0.9864433208186992,human
+President Snow,Albus Dumbledore,False,25,0.08893700889499753,human
+Princess Leia,Princess Leia,True,15,0.9030312335657439,human
+Princess Peach,Princess Peach,True,7,0.8998826128987709,human
+Rick Grimes,Rick Grimes,True,14,0.9262462863722298,human
+Ron Weasley,Albus Dumbledore,False,25,0.13660338990157334,human
+Roronoa Zoro,Roronoa Zoro,True,10,0.9590108949506764,human
+Sakura Haruno,Sakura Haruno,True,22,0.9763335331135751,human
+Sanji,Sanji,True,19,0.8649432534678436,human
+Sasuke Uchiha,Sasuke Uchiha,True,9,0.9399553313299976,human
+Saul Goodman,Saul Goodman,True,4,0.9349781897491821,human
+Sherlock Holmes,Albus Dumbledore,False,25,0.07582356842803448,human
+Shrek,Shrek,True,11,0.9872787284230806,human
+Sokka,Sokka,True,13,0.9422793267006017,human
+Sonic the Hedgehog,Sonic the Hedgehog,True,10,0.9610409722427068,human
+Spider-Man,Superman,False,11,0.9446086973771752,human
+SpongeBob SquarePants,SpongeBob SquarePants,True,9,0.9397109934959115,human
+Squidward Tentacles,Michonne,False,25,0.14916706537340702,human
+Superman,Superman,True,22,0.9176759710447003,human
+Thanos,Thanos,True,19,0.9600282103633926,human
+The Joker,The Joker,True,19,0.9624530064959094,human
+Thor,Thor,True,23,0.9788554332606205,human
+Tyrion Lannister,Tyrion Lannister,True,13,0.8732895530389332,human
+Vecna,Albus Dumbledore,False,25,0.08893700889499753,human
+Vegeta,Vegeta,True,10,0.9155017532858396,human
+Walter White,Walter White,True,5,0.8552369077306734,human
+Wonder Woman,Wonder Woman,True,14,0.8637050488448231,human
+Yennefer,Lisa Simpson,False,25,0.11861446408190092,human
+Zelda,Zelda,True,9,0.8657761463732563,human
+Zuko,Zuko,True,17,0.9797687426698343,human
