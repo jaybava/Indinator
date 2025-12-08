@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  7 DEC 2025 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  7 DEC 2025 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,8 +451,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box56
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -473,6 +472,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 -- Lines per column: 56 (exact).
 
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii
@@ -502,6 +502,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 11.
+ (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -520,13 +521,8 @@ sb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-
-Underfull \hbox (badness 3849) in paragraph at lines 66--67
-[]\OT1/ptm/m/n/10 This re-port de-scribes the sys-tem ar-chi-tec-ture, in-fer-
- []
-
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
-2.
+0.
 
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/psnfss/ot1p
 cr.fd
@@ -539,226 +535,138 @@ dmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]\OT1/ptm/b/n/10 Trait as-sign-ment: \OT1/ptm/m/n/10 Cat-e-gory scripts as-sig
+n
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-[]\OT1/ptm/b/n/10 Trait as-sign-ment: \OT1/ptm/m/n/10 Category-specific scripts
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 traits (fran-chise, iden-tity, ap-pear-ance, abil-i-ties,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 role, archetype, per-son-al-ity). These are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 merged into a flat-tened bi-nary map-ping
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/pcr/m/n/10 appearance_color_orange\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 110--111
+[]\OT1/ptm/b/n/10 Question gen-er-a-tion: \OT1/pcr/m/n/10 generate_questions.py
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 as-sign traits to char-ac-ters, in-clud-ing fran-chise,
- []
 
-
-Underfull \hbox (badness 4403) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 iden-tity, ap-pear-ance, abil-i-ties, role, archetype, and
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 per-son-al-ity. The traits are com-bined into a sin-gle
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 flat-tened rep-re-sen-ta-tion (\OT1/pcr/m/n/10 traits_flat.json
-\OT1/ptm/m/n/10 ),
- []
-
-
-Underfull \hbox (badness 4341) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 where each char-ac-ter is rep-re-sented as a bi-nary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/ptm/m/n/10 vec-tor over traits such as \OT1/pcr/m/n/10 franchise_anime\OT1
-/ptm/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-\OT1/pcr/m/n/10 appearance_color_orange\OT1/ptm/m/n/10 , or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-[]\OT1/ptm/b/n/10 Question gen-er-a-tion: \OT1/ptm/m/n/10 The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-\OT1/pcr/m/n/10 generate_questions.py \OT1/ptm/m/n/10 script con-verts trait
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-\OT1/ptm/m/n/10 names into natural-language yes/no ques-tions,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-\OT1/ptm/m/n/10 pro-duc-ing \OT1/pcr/m/n/10 questions.json\OT1/ptm/m/n/10 . For
- ex-am-ple, the
- []
-
-
-
-[2]
-Underfull \hbox (badness 1400) in paragraph at lines 166--167
-\OT1/ptm/m/n/10 Experiments were con-ducted on a stan-dard lap-top with
- []
-
-
-
-<results/accuracy_ideal.png, id=34, 433.62pt x 289.08pt>
+<results/accuracy_ideal.png, id=91, 433.62pt x 289.08pt>
 File: results/accuracy_ideal.png Graphic file (type png)
 <use results/accuracy_ideal.png>
-Package pdftex.def Info: results/accuracy_ideal.png  used on input line 174.
+Package pdftex.def Info: results/accuracy_ideal.png  used on input line 157.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/accuracy_human.png, id=36, 433.62pt x 289.08pt>
+<results/accuracy_human.png, id=93, 433.62pt x 289.08pt>
 File: results/accuracy_human.png Graphic file (type png)
 <use results/accuracy_human.png>
-Package pdftex.def Info: results/accuracy_human.png  used on input line 181.
+Package pdftex.def Info: results/accuracy_human.png  used on input line 164.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/questions_distribution_ideal.png, id=37, 433.62pt x 289.08pt>
+<results/questions_distribution_ideal.png, id=94, 433.62pt x 289.08pt>
 File: results/questions_distribution_ideal.png Graphic file (type png)
 <use results/questions_distribution_ideal.png>
 Package pdftex.def Info: results/questions_distribution_ideal.png  used on inpu
-t line 188.
+t line 171.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/questions_distribution_human.png, id=38, 433.62pt x 289.08pt>
+<results/questions_distribution_human.png, id=95, 433.62pt x 289.08pt>
 File: results/questions_distribution_human.png Graphic file (type png)
 <use results/questions_distribution_human.png>
 Package pdftex.def Info: results/questions_distribution_human.png  used on inpu
-t line 195.
+t line 178.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/questions_violin_ideal.png, id=39, 433.62pt x 289.08pt>
+<results/questions_violin_ideal.png, id=96, 433.62pt x 289.08pt>
 File: results/questions_violin_ideal.png Graphic file (type png)
 <use results/questions_violin_ideal.png>
 Package pdftex.def Info: results/questions_violin_ideal.png  used on input line
- 202.
+ 185.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/questions_violin_human.png, id=40, 433.62pt x 289.08pt>
+<results/questions_violin_human.png, id=97, 433.62pt x 289.08pt>
 File: results/questions_violin_human.png Graphic file (type png)
 <use results/questions_violin_human.png>
 Package pdftex.def Info: results/questions_violin_human.png  used on input line
- 209.
+ 192.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/probability_convergence_ideal.png, id=41, 505.89pt x 289.08pt>
+<results/probability_convergence_ideal.png, id=98, 505.89pt x 289.08pt>
 File: results/probability_convergence_ideal.png Graphic file (type png)
 <use results/probability_convergence_ideal.png>
 Package pdftex.def Info: results/probability_convergence_ideal.png  used on inp
-ut line 216.
+ut line 199.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
-<results/probability_convergence_human.png, id=42, 505.89pt x 289.08pt>
+<results/probability_convergence_human.png, id=99, 505.89pt x 289.08pt>
 File: results/probability_convergence_human.png Graphic file (type png)
 <use results/probability_convergence_human.png>
 Package pdftex.def Info: results/probability_convergence_human.png  used on inp
-ut line 223.
+ut line 206.
 (pdftex.def)             Requested size: 252.0pt x 144.0015pt.
-<results/confusion_matrix_wrong_ideal.png, id=43, 433.62pt x 289.08pt>
+<results/confusion_matrix_wrong_ideal.png, id=100, 433.62pt x 289.08pt>
 File: results/confusion_matrix_wrong_ideal.png Graphic file (type png)
 <use results/confusion_matrix_wrong_ideal.png>
 Package pdftex.def Info: results/confusion_matrix_wrong_ideal.png  used on inpu
-t line 230.
+t line 213.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-<results/confusion_matrix_wrong_human.png, id=44, 462.528pt x 809.424pt>
+<results/confusion_matrix_wrong_human.png, id=101, 462.528pt x 809.424pt>
 File: results/confusion_matrix_wrong_human.png Graphic file (type png)
 <use results/confusion_matrix_wrong_human.png>
 Package pdftex.def Info: results/confusion_matrix_wrong_human.png  used on inpu
-t line 237.
+t line 220.
 (pdftex.def)             Requested size: 252.0pt x 441.01001pt.
 
-LaTeX Warning: Reference `fig:questions-ideal' on page 3 undefined on input lin
-e 246.
 
-
-LaTeX Warning: Reference `fig:violin-ideal' on page 3 undefined on input line 2
-46.
-
-
-LaTeX Warning: Reference `fig:accuracy-ideal' on page 3 undefined on input line
- 248.
-
-
-LaTeX Warning: Reference `fig:conv-ideal' on page 3 undefined on input line 248
-.
+[2]
 
 
 
-[3 <./results/accuracy_ideal.png> <./results/accuracy_human.png>]
-
-LaTeX Warning: Reference `fig:cm-ideal' on page 4 undefined on input line 250.
-
-
-LaTeX Warning: Reference `fig:questions-human' on page 4 undefined on input lin
-e 256.
-
-
-LaTeX Warning: Reference `fig:violin-human' on page 4 undefined on input line 2
-56.
-
-
-LaTeX Warning: Reference `fig:accuracy-human' on page 4 undefined on input line
- 256.
-
-
-LaTeX Warning: Reference `fig:conv-human' on page 4 undefined on input line 258
-.
-
-
-LaTeX Warning: Reference `fig:cm-human' on page 4 undefined on input line 260.
-
-
-
-
-LaTeX Warning: Reference `tab:comparison' on page 4 undefined on input line 264
-.
-
-
-
-[4 <./results/questions_distribution_ideal.png> <./results/questions_distributi
-on_human.png> <./results/questions_violin_ideal.png> <./results/questions_violi
-n_human.png>]
-Underfull \hbox (badness 2512) in paragraph at lines 287--288
+[3 <./results/accuracy_ideal.png> <./results/accuracy_human.png> <./results/que
+stions_distribution_ideal.png> <./results/questions_distribution_human.png>]
+Underfull \hbox (badness 2512) in paragraph at lines 270--271
 []\OT1/ptm/m/n/10 Implementing more sys-tem-atic eval-u-a-tion, in-clud-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []\OT1/ptm/m/n/10 Exploring al-ter-na-tive or com-ple-men-tary question-
  []
 
 
-Underfull \vbox (badness 1688) has occurred while \output is active []
 
 
 
-
-Underfull \hbox (badness 1571) in paragraph at lines 307--309
+[4 <./results/questions_violin_ideal.png> <./results/questions_violin_human.png
+> <./results/probability_convergence_ideal.png> <./results/probability_converge
+nce_human.png>]
+Underfull \hbox (badness 1571) in paragraph at lines 290--292
 []\OT1/ptm/m/n/8 Akinator, ``Ak-i-na-tor the Web Ge-nius,'' 2024. [On-line]. Av
 ail-able:
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 327--332
+Underfull \hbox (badness 6428) in paragraph at lines 310--315
 []\OT1/ptm/m/n/8 D. Mackay, \OT1/ptm/m/it/8 In-for-ma-tion The-ory, In-fer-ence
 , and Learn-ing Al-
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 327--332
+Underfull \hbox (badness 5862) in paragraph at lines 310--315
 \OT1/ptm/m/it/8 go-rithms\OT1/ptm/m/n/8 . Cam-bridge Uni-ver-sity Press, 2003. 
 Avail-able on-line:
  []
 
-
-
-[5 <./results/probability_convergence_ideal.png> <./results/probability_converg
-ence_human.png> <./results/confusion_matrix_wrong_ideal.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -774,16 +682,12 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6
-
- <./results/confusion_matrix_wrong_human.png>] (./report.aux)
+[5 <./results/confusion_matrix_wrong_ideal.png> <./results/confusion_matrix_wro
+ng_human.png>] (./report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -794,32 +698,36 @@ Package rerunfilecheck Warning: File `report.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  38D648DAA5DABC60B0721112B072056E;2848.
+(rerunfilecheck)             Before: 38D648DAA5DABC60B0721112B072056E;2848
+(rerunfilecheck)             After:  53C25735A2832C9FB83EE101D6576988;2637.
  ) 
 Here is how much of TeX's memory you used:
- 11440 strings out of 473190
- 182534 string characters out of 5704335
- 602601 words of memory out of 5000000
- 34503 multiletter control sequences out of 15000+600000
+ 11466 strings out of 473190
+ 182891 string characters out of 5704335
+ 604325 words of memory out of 5000000
+ 34524 multiletter control sequences out of 15000+600000
  601255 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1381b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/202503
-08_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/
-Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/
-courier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20250
-308_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/t
-exlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (6 pages, 639038 bytes).
+ 75i,8n,79p,1246b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.2.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308
+_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Ce
+llar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/co
+urier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/font
+s/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/tex
+mf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/2025030
+8_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/tex
+live/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (5 pages, 637082 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
