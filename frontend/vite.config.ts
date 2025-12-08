@@ -8,7 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    host: "::",
+    host: "0.0.0.0", // Listen on all network interfaces
     port: 8080,
     proxy: {
       '/api': {

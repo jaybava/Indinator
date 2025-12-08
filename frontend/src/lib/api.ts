@@ -13,7 +13,8 @@ export interface ApiError {
   error: string;
 }
 
-const API_BASE = "/api";
+// Use environment variable for API base, fallback to proxy path for local dev
+const API_BASE = import.meta.env.VITE_API_BASE || "/api";
 
 /**
  * Map frontend answer values to backend format

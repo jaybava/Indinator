@@ -16,7 +16,8 @@ project_root = Path(__file__).parent
 data_dir = project_root / "data"
 
 app = Flask(__name__, static_folder="ui", static_url_path="")
-CORS(app)  # Enable CORS for all routes
+# Enable CORS for all routes, allow all origins for development
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Create a single AI engine instance (single-user / local use case)
 ai = None
@@ -157,8 +158,9 @@ def api_answer():
         elif answer_code == "probably_no":
             user_answer = "probably_not"
             lk_correct, lk_incorrect = 0.75, 0.25
-        elif answer_code == "unknown":
+        elif answer_code == "maybe" or answer_code == "unknown":
             user_answer = "dont_know"
+            lk_correct, lk_incorrect = 0.5, 0.5  # Neutral values for "don't know"
         else:
             return jsonify({"error": f"Invalid answer '{answer_code}'"}), 400
 
